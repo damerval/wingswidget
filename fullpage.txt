@@ -1,0 +1,1572 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Wings of Alaska: Welcome to Wings of Alaska</title>
+<script type="text/javascript" src="http://www.wingsofalaska.com/wp-content/themes/place_in_the_sky_ote032/script.js"></script>
+<link rel="stylesheet" href="http://www.wingsofalaska.com/wp-content/themes/place_in_the_sky_ote032/style.css" type="text/css" media="screen" />
+<!--[if IE 6]><link rel="stylesheet" href="http://www.wingsofalaska.com/wp-content/themes/place_in_the_sky_ote032/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Wings of Alaska RSS Feed" href="http://www.wingsofalaska.com/?feed=rss2" />
+<link rel="alternate" type="application/atom+xml" title="Wings of Alaska Atom Feed" href="http://www.wingsofalaska.com/?feed=atom" />
+
+<link rel="pingback" href="http://www.wingsofalaska.com/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.wingsofalaska.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='font_awsome_frontend-css'  href='http://www.wingsofalaska.com/wp-content/plugins/forms-contact/style/iconfonts/css/font-awesome.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='social-widget-css'  href='http://www.wingsofalaska.com/wp-content/plugins/social-media-widget/social_widget.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://www.wingsofalaska.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.wingsofalaska.com/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
+<script type='text/javascript' src='http://www.wingsofalaska.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var huge_it_obj = {"nonce":"f241fb59dc"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wingsofalaska.com/wp-content/plugins/forms-contact/js/recaptcha_front.js?ver=4.5.1'></script>
+<link rel='https://api.w.org/' href='http://www.wingsofalaska.com/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wingsofalaska.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.wingsofalaska.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.5.1" />
+<link rel="canonical" href="http://www.wingsofalaska.com/" />
+<link rel='shortlink' href='http://www.wingsofalaska.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.wingsofalaska.com/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fwww.wingsofalaska.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.wingsofalaska.com/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fwww.wingsofalaska.com%2F&#038;format=xml" />
+<script data-cfasync="false" src="//load.sumome.com/" data-sumo-site-id="f749775ab83796458039e848f9ece0c84f6a51a0a05cb7fdc7034bfb661acf68" async></script><link rel="icon" href="http://www.wingsofalaska.com/wp-content/uploads/2016/02/cropped-wings-of-alaska-facebook-no-seaport-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://www.wingsofalaska.com/wp-content/uploads/2016/02/cropped-wings-of-alaska-facebook-no-seaport-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://www.wingsofalaska.com/wp-content/uploads/2016/02/cropped-wings-of-alaska-facebook-no-seaport-1-180x180.png" />
+<meta name="msapplication-TileImage" content="http://www.wingsofalaska.com/wp-content/uploads/2016/02/cropped-wings-of-alaska-facebook-no-seaport-1-270x270.png" />
+</head>
+<body>
+<div class="PageBackgroundSimpleGradient">
+</div>
+<div class="PageBackgroundGlare">
+    <div class="PageBackgroundGlareImage"></div>
+</div>
+<div class="Main">
+<div class="Sheet">
+    <div class="Sheet-tl"></div>
+    <div class="Sheet-tr"><div></div></div>
+    <div class="Sheet-bl"><div></div></div>
+    <div class="Sheet-br"><div></div></div>
+    <div class="Sheet-tc"><div></div></div>
+    <div class="Sheet-bc"><div></div></div>
+    <div class="Sheet-cl"><div></div></div>
+    <div class="Sheet-cr"><div></div></div>
+    <div class="Sheet-cc"></div>
+    <div class="Sheet-body">
+<div class="Header">
+    <div class="Header-jpeg"></div>
+<div class="logo">
+    <h1 id="name-text" class="logo-name">
+        <a href="http://www.wingsofalaska.com/">Wings of Alaska</a></h1>
+    <div id="slogan-text" class="logo-text">
+        Reservations 1.907.983.2442 or 1.800.789.9464</div>
+</div>
+
+</div>
+<div class="nav">
+    <ul id="menu-wings" class="artmenu"><li id="menu-item-188" class="page_item  menu-item-object-page current-menu-item page_item page-item-186 menu-item-188"><a class="active" href="http://www.wingsofalaska.com/"><span><span>HOME</span></span></a></li>
+<li id="menu-item-96" class="page_item  menu-item-object-page menu-item-has-children menu-item-96"><a href="http://www.wingsofalaska.com/?page_id=5"><span><span>RESERVATIONS &#038; SCHEDULE</span></span></a>
+<ul class="children ">
+	<li id="menu-item-191" class="page_item  menu-item-object-page menu-item-191"><a href="http://www.wingsofalaska.com/?page_id=72"><span><span>Flight Schedules</span></span></a></li>
+	<li id="menu-item-193" class="page_item  menu-item-object-page menu-item-193"><a href="http://www.wingsofalaska.com/?page_id=47"><span><span>CHARTER</span></span></a></li>
+	<li id="menu-item-194" class="page_item  menu-item-object-page menu-item-194"><a href="http://www.wingsofalaska.com/?page_id=45"><span><span>TOURS</span></span></a></li>
+	<li id="menu-item-190" class="page_item  menu-item-object-page menu-item-190"><a href="http://www.wingsofalaska.com/?page_id=76"><span><span>Prices</span></span></a></li>
+	<li id="menu-item-192" class="page_item  menu-item-object-page menu-item-192"><a href="http://www.wingsofalaska.com/?page_id=50"><span><span>Flight Map</span></span></a></li>
+</ul>
+</li>
+<li id="menu-item-85" class="page_item  menu-item-object-page menu-item-has-children menu-item-85"><a href="http://www.wingsofalaska.com/?page_id=9"><span><span>DESTINATIONS</span></span></a>
+<ul class="children ">
+	<li id="menu-item-90" class="page_item  menu-item-object-page menu-item-90"><a href="http://www.wingsofalaska.com/?page_id=25"><span><span>Hoonah/ Icy Strait</span></span></a></li>
+	<li id="menu-item-89" class="page_item  menu-item-object-page menu-item-89"><a href="http://www.wingsofalaska.com/?page_id=28"><span><span>Juneau</span></span></a></li>
+	<li id="menu-item-88" class="page_item  menu-item-object-page menu-item-88"><a href="http://www.wingsofalaska.com/?page_id=31"><span><span>Haines</span></span></a></li>
+	<li id="menu-item-87" class="page_item  menu-item-object-page menu-item-87"><a href="http://www.wingsofalaska.com/?page_id=33"><span><span>Skagway</span></span></a></li>
+	<li id="menu-item-86" class="page_item  menu-item-object-page menu-item-86"><a href="http://www.wingsofalaska.com/?page_id=35"><span><span>Glacier Bay/Gustavus</span></span></a></li>
+</ul>
+</li>
+<li id="menu-item-219" class="page_item  menu-item-object-page menu-item-219"><a href="http://www.wingsofalaska.com/?page_id=47"><span><span>CHARTER</span></span></a></li>
+<li id="menu-item-220" class="page_item  menu-item-object-page menu-item-220"><a href="http://www.wingsofalaska.com/?page_id=45"><span><span>TOURS</span></span></a></li>
+<li id="menu-item-83" class="page_item  menu-item-object-page menu-item-has-children menu-item-83"><a href="http://www.wingsofalaska.com/?page_id=11"><span><span>CARGO</span></span></a>
+<ul class="children ">
+	<li id="menu-item-288" class="page_item  menu-item-object-page menu-item-288"><a href="http://www.wingsofalaska.com/?page_id=11"><span><span>CARGO</span></span></a></li>
+	<li id="menu-item-84" class="page_item  menu-item-object-page menu-item-84"><a href="http://www.wingsofalaska.com/?page_id=40"><span><span>Cargo Rates</span></span></a></li>
+</ul>
+</li>
+<li id="menu-item-91" class="page_item  menu-item-object-page menu-item-has-children menu-item-91"><a href="http://www.wingsofalaska.com/?page_id=7"><span><span>FAQ</span></span></a>
+<ul class="children ">
+	<li id="menu-item-275" class="page_item  menu-item-object-page menu-item-275"><a href="http://www.wingsofalaska.com/?page_id=7"><span><span>FAQ</span></span></a></li>
+	<li id="menu-item-82" class="page_item  menu-item-object-page menu-item-82"><a href="http://www.wingsofalaska.com/?page_id=15"><span><span>About Us</span></span></a></li>
+</ul>
+</li>
+</ul><ul style="display:none;">
+<li><a href="http://www.freewordpressthemes4u.com/category/contemporary">contemporary theme wordpress</a></li><li><a href="http://healthcoverdeals.com/hcdindex/www.bupa.co.uk">bupa.co.uk medical insurance</a></li>
+</ul>    <div class="l">
+    </div>
+    <div class="r">
+        <div>
+        </div>
+    </div>
+</div>
+<div class="contentLayout">
+<div class="content">
+
+<div class="Post">
+    <div class="Post-body">
+<div class="Post-inner article">
+<div class="PostMetadataHeader">
+<h2 class="PostHeaderIcon-wrapper">
+<span class="PostHeader"><a href="http://www.wingsofalaska.com/" rel="bookmark" title="Permanent Link to Welcome to Wings of Alaska">
+Welcome to Wings of Alaska</a></span>
+</h2>
+
+</div>
+<div class="PostContent">
+<p><span style="font-size: 16px;"> We are a locally owned company that has provided intra-state service to Southeast Alaska for over 30 years. Our #1 mission is to serve you, and along with our proud partner, Fjord Flying Services, we provide regular passenger and freight services to 5 local communities, tours of Alaskan Glacier Fields, and customized charters.  Please call us at 1-800-789-0790 and let us know what we can do for you!</span></p>
+<p>
+<table id="tablepress-5" class="tablepress tablepress-id-5">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Juneau </th><th class="column-2">Skagway</th><th class="column-3">Haines </th><th class="column-4">Gustavus</th><th class="column-5">Hoonah</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">1-907-789-0790</td><td class="column-2">1-907-983-2442</td><td class="column-3">1-907-766-2030</td><td class="column-4">1-907-697-2201</td><td class="column-5">907-945-3275</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-5 from cache --><br />
+<div class="easyRotatorWrapper" align="center">
+
+<!-- Begin DWUser_EasyRotator -->
+<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+<div class="dwuserEasyRotator" style="width: 600px; height: 400px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-79-119-110-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="Wings of Alaska"  data-erTID="{fph7qv6y7b2177392694541}">
+	<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Route web slideshow-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Route web slideshow-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Haines-web-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Haines-web-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Alaska Vacation (64)-0.JPG" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Alaska Vacation (64)-0.JPG" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/skagway web1-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/skagway web1-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://wp.wingsofalaska.com/wp-content/uploads/2016/02/oldcasiopic-247.jpg" alt="oldcasiopic 247" />
+		<img class="thumb" src="http://wp.wingsofalaska.com/wp-content/uploads/2016/02/oldcasiopic-247.jpg" />
+		<span class="title">oldcasiopic 247</span>
+	</li>
+	<li>
+		<img class="main" src="http://wp.wingsofalaska.com/wp-content/uploads/2016/02/Alaska-Vacation-50-1.jpg" alt="Majestic Mountain Ranges" />
+		<img class="thumb" src="http://wp.wingsofalaska.com/wp-content/uploads/2016/02/Alaska-Vacation-50-1.jpg" />
+		<span class="title">Majestic Mountain Ranges</span>
+	</li>
+	<li>
+		<img class="main" src="http://wp.wingsofalaska.com/wp-content/uploads/2016/02/looking-out.jpg" alt="Looking Out" />
+		<img class="thumb" src="http://wp.wingsofalaska.com/wp-content/uploads/2016/02/looking-out.jpg" />
+		<span class="title">Looking Out</span>
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Glacier-view-web1-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/Glacier-view-web1-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/hoonah web1-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/hoonah web1-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/mountain view web2-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/mountain view web2-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/hoonah web2-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/hoonah web2-0.jpg" />
+	</li>
+	<li>
+		<img class="main" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/hoonah web-0.jpg" />
+		<img class="thumb" src="http://www.wingsofalaska.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_8_1454682555/content/assets/hoonah web-0.jpg" />
+	</li>
+</ul>
+</div>
+	<div data-ertype="layout" data-ertemplateName="NONE" style="">			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{___numTiles:3, scaleMode:'fillArea', imgType:'main', __loopNextButton:false, arrowButtonMode:'rollover'}">
+				<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+					<div class="erimgMain_slide">
+						<div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+					</div>
+				</div>
+				<div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+				<div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;"></div>
+			</div>
+			<div class="erimgMain rotatorTileNav" style="position: absolute; left:27px;width:490px;bottom:20px;height:64px;" data-erConfig="{numTiles:5, scaleMode:'fillArea', imgType:'thumb', loopNextButton:false, arrowButtonMode:'rollover', __slideLinkEvent:'rollover'}">
+				<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+					<div class="erimgMain_slide">
+						<div class="selectionArrow visibleWhenSelected" style="position: absolute; top: 0; left: 0; right: 6px; bottom: 0; background: #FFF;"></div>
+						<div class="erimgMain_img" style="position: absolute; left: 2px; right: 8px; top: 2px; bottom: 2px; border: 2px solid #FFF;"></div>
+					</div>
+				</div>
+				<!--
+				<div class="erimgMain_arrowLeft" style="position:absolute; left: 60px; top: 50%; margin-top: -10px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+				<div class="erimgMain_arrowRight" style="position:absolute; right: 60px; top: 50%; margin-top: -10px;"></div>
+				-->
+			</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+			This jQuery slider was created with the free <a style="color:#FFF;" href="#eraboutlink" target="_blank">EasyRotator for WordPress</a> plugin from DWUser.com.
+			<br /><br />
+			<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>
+		</div>
+		<noscript>
+			Rotator powered by <strong>EasyRotator for WordPress</strong>, a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+		</noscript>
+		<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+
+	</div>
+</div>
+<!-- End DWUser_EasyRotator -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></p>
+
+</div>
+<div class="cleared"></div>
+
+</div>
+
+    </div>
+</div>
+
+</div>
+<div class="sidebar1">
+<div class="sidebar1">
+<div class="Block">
+    <div class="Block-tl"></div>
+    <div class="Block-tr"><div></div></div>
+    <div class="Block-bl"><div></div></div>
+    <div class="Block-br"><div></div></div>
+    <div class="Block-tc"><div></div></div>
+    <div class="Block-bc"><div></div></div>
+    <div class="Block-cl"><div></div></div>
+    <div class="Block-cr"><div></div></div>
+    <div class="Block-cc"></div>
+    <div class="Block-body">
+<div class="BlockContent">
+    <div class="BlockContent-body">
+			<div class="textwidget"><style>
+/*########### PREVIEW CONTAINER ##############*/
+
+#hugeit-contact-wrapper_4 input, #hugeit-contact-wrapper_4 select {font-size: 11px}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#hugeit-contact-wrapper_4 li {background-image: none;}
+input {width: 100%}
+#hugeit-contact-preview-container {
+    position: relative;
+    float: right;
+    width: 60%;
+    min-width: 305px;
+    padding: 10px 0px 10px 0px;
+    background: #fff;
+    min-width: 310px;
+}
+#hugeit-contact-wrapper_4 {
+    margin: 0px auto;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block {
+    position: relative;
+    float: left;
+    width: 94%;
+    /*min-width: 305px;*/
+    margin: 0px 1% 0px 1%;
+    height: auto;
+    min-height: 30px;
+}
+#hugeit-contact-wrapper_4 div.multicolumn .hugeit-contact-column-block {
+    width: 47%;
+    padding-top: 10px;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block {
+    padding-top: 10px;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    clear: both;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hugeit-check-field,
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hugeit-radio-field {
+    padding: 5px 0px 5px 0px;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.buttons-block {
+    position: relative;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hover-active {
+    border: 2px dashed #2EA2CC;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    margin-left: -4px;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.captcha-block {
+    /*height:78px;*/
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label {
+    display: block;
+    width: 38%;
+    float: left;
+    cursor: pointer;
+    margin-right: 2%;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block {
+    display: inline-block;
+    width: 60%;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block select,
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block textarea,
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="text"],
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="password"],
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="name"],
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="email"],
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="number"] {
+    width: 100%;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul {
+    width: 100%;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li {
+    float: left;
+    line-height: 1 !important;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li label {
+    margin: 0px 10px 0px 0px;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li label span.sublable {
+    vertical-align: super;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div ul {
+    position: relative;
+    display: table !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label ul li {
+    clear: both;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+#hugeit-contact-wrapper_4 #huge_it_captcha {
+    float: right;
+}
+/*FIELDS CUSTOM STYLES*/
+/*radio + checkbox*/
+
+#hugeit-contact-wrapper_4.big-radio .radio-block,
+#hugeit-contact-wrapper_4.big-checkbox .checkbox-block {
+    width: 24px;
+    height: 24px;
+    border-radius: 13px;
+}
+#hugeit-contact-wrapper_4.big-radio .radio-block input:checked + span,
+#hugeit-contact-wrapper_4.big-checkbox .checkbox-block input:checked + span {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    top: 5px;
+    left: 5px;
+}
+#hugeit-contact-wrapper_4.medium-radio .radio-block,
+#hugeit-contact-wrapper_4.medium-checkbox .checkbox-block {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+#hugeit-contact-wrapper_4.medium-radio .radio-block input:checked + span,
+#hugeit-contact-wrapper_4.medium-checkbox .checkbox-block input:checked + span {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    top: 4px;
+    left: 4px;
+}
+#hugeit-contact-wrapper_4.small-radio .radio-block.small,
+#hugeit-contact-wrapper_4.small-checkbox .checkbox-block {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+}
+#hugeit-contact-wrapper_4.small-radio .radio-block input:checked + span,
+#hugeit-contact-wrapper_4.small-checkbox .checkbox-block input:checked + span {
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    top: 3px;
+    left: 3px;
+}
+#huge-it-captcha-popup > div > label {
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+}
+#huge-it-captcha-popup > div > input {
+    width: 350px;
+}
+/*######################## END OFO CHOR ######################*/
+
+body #hugeit-contact-wrapper_4 input,
+body #hugeit-contact-wrapper_4 textarea {
+    padding: 0px;
+    margin: 0px;
+}
+#hugeit-contact-wrapper_4 {
+    width: 100%;
+}
+#hugeit-contact-wrapper_4 > div {
+    border: 0px solid #EBECEC;
+}
+#hugeit-contact-wrapper_4 > div > h3 {
+    position: relative;
+    display: block;
+    clear: both !important;
+    padding: 5px 0px 10px 1% !important;
+    font-size: 24px !important;
+    line-height: 24px !important;
+    color: #328FE6 !important;
+    margin: 10px 0 15px 0 !important;
+}
+/*LABELS*/
+
+#hugeit-contact-wrapper_4 label {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px !important;
+    color: #444444;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+#hugeit-contact-wrapper_4 .hugeit-field-block > label.error {
+    color: #C2171D !important;
+}
+#hugeit-contact-wrapper_4 label em.required-star {
+    color: #328FE6;
+}
+#hugeit-contact-wrapper_4 label em.error {
+    color: #C2171D;
+}
+#hugeit-contact-wrapper_4 .hugeit-field-block span.hugeit-error-message {
+    font-size: 12px !important;
+    color: #C2171D;
+    line-height: 16px !important;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    display: block;
+    vertical-align: top;
+}
+#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_success_msg {
+    font-size: 16px !important;
+    display: block;
+    text-align: center;
+    vertical-align: super;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #00C60E;
+}
+#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_spam_msg {
+    font-size: 16px !important;
+    display: block;
+    text-align: center;
+    vertical-align: super;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #C2171D;
+}
+#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_button_overlay {
+    background: rgba(241, 241, 241, 0.85);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_button_overlay > img#buttLoad {
+    width: 20px;
+    height: 20px;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsRightAlign {
+    text-align: right !important;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsAboveAlign {
+    width: 100% !important;
+    float: none !important;
+    padding-bottom: 5px !important;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .formsAboveAlign {
+    width: 100% !important;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsInsideAlign {
+    display: none !important;
+}
+#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .formsInsideAlign {
+    width: 100% !important;
+}
+/*FIELDS CUSTOM STYLES*/
+/*############INPUT TEXT############*/
+
+#hugeit-contact-wrapper_4 .input-text-block input,
+#hugeit-contact-wrapper_4 .input-text-block input:focus {
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB !important;
+    box-shadow: none !important;
+    border-radius: 1px;
+    font-size: 12px;
+    color: #4F4F4F;
+    margin: 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    outline: none;
+    vertical-align: top !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*############TEXTAREA############*/
+
+#hugeit-contact-wrapper_4 .textarea-block textarea {
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #444444;
+    margin: 0px !important;
+    padding: 0px 0px 0px 5px !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*############CHECKBOX RADIOBOX############ */
+
+#hugeit-contact-wrapper_4 .hugeit-checkbox-list {
+    list-style: none;
+}
+#hugeit-contact-wrapper_4 .hugeit-checkbox-list li,
+#hugeit-contact-wrapper_4 .hugeit-radiobox-list li {
+    margin: 0px 0px 6px 0px !important;
+    padding: 0px !important;
+    list-style: none;
+}
+#hugeit-contact-wrapper_4 .hugeit-checkbox-list li label,
+#hugeit-contact-wrapper_4 .hugeit-radiobox-list li label {
+    cursor: pointer;
+}
+#hugeit-contact-wrapper_4 .radio-block,
+#hugeit-contact-wrapper_4 .checkbox-block {
+    position: relative;
+    float: left;
+    margin: 0px 5px 0px 5px !important;
+    display: block;
+}
+#hugeit-contact-wrapper_4 .radio-block input,
+#hugeit-contact-wrapper_4 .checkbox-block input {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#hugeit-contact-wrapper_4 .radio-block i {
+    display: inline-block;
+    float: left;
+    width: 20px;
+    color: #ABABAB;
+    cursor: pointer;
+}
+#hugeit-contact-wrapper_4 .checkbox-block i {
+    display: inline-block;
+    float: left;
+    width: 20px;
+    color: #ABABAB;
+}
+#hugeit-contact-wrapper_4.big-radio .radio-block i,
+#hugeit-contact-wrapper_4.big-checkbox .checkbox-block i {
+    font-size: 24px;
+}
+#hugeit-contact-wrapper_4.medium-radio .radio-block i,
+#hugeit-contact-wrapper_4.medium-checkbox .checkbox-block i {
+    font-size: 20px;
+}
+#hugeit-contact-wrapper_4.small-radio .radio-block i,
+#hugeit-contact-wrapper_4.small-checkbox .checkbox-block i {
+    font-size: 15px;
+}
+#hugeit-contact-wrapper_4 .radio-block i:hover {
+    color: #949292;
+}
+#hugeit-contact-wrapper_4.checkbox-block i:hover {
+    color: #949292;
+}
+#hugeit-contact-wrapper_4 .radio-block i.active,
+#hugeit-contact-wrapper_4 .checkbox-block i.active {
+    display: none;
+}
+/*Voch checked inputi motic heracnumenq active@*/
+
+#hugeit-contact-wrapper_4 .radio-block input:checked + i.active + i.passive,
+#hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active + i.passive {
+    display: none;
+}
+#hugeit-contact-wrapper_4 .radio-block input:checked + i.active,
+#hugeit-contact-wrapper_4 .radio-block input:checked + i.active:hover {
+    display: inline-block;
+    color: #328FE6;
+}
+#hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active,
+#hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active:hover {
+    display: inline-block;
+    color: #328FE6;
+}
+/*############SELECTBOX#############*/
+
+#hugeit-contact-wrapper_4 .selectbox-block {
+    position: relative;
+    height: 25px;
+}
+#hugeit-contact-wrapper_4 .selectbox-block select {
+    position: relative;
+    height: 22px;
+    margin: 1px 0px 0px 1px !important;
+    /*opacity: 0;*/
+    z-index: 2;
+}
+#hugeit-contact-wrapper_4 .selectbox-block .textholder {
+    position: absolute;
+    height: 24px;
+    width: 90%;
+    margin: 0px !important;
+    top: 0px;
+    color: #4F4F4F;
+    left: 0px;
+    border: 0px;
+    opacity: 0 !important;
+    background: none;
+    border: 1px solid #ABABAB;
+    border-radius: 1px;
+    font-size: 12px;
+    background: #FFFFFF;
+    padding: 0px 10% 0px 5px !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#hugeit-contact-wrapper_4 .selectbox-block i {
+    position: absolute;
+    top: 6.25px;
+    right: 10px;
+    z-index: 0;
+    color: #ABABAB;
+    font-size: 12px;
+}
+/*############FILE#############*/
+
+#hugeit-contact-wrapper_4 .file-block {
+    position: relative;
+    cursor: pointer;
+}
+#hugeit-contact-wrapper_4 .file-block .textholder {
+    position: relative;
+    float: left;
+    width: calc(60% - 7px) !important;
+    height: 28px;
+    margin: 0px;
+    border: 1px solid #328FE6 !important;
+    border-radius: 1px !important;
+    font-size: 14px;
+    color: #4F4F4F;
+    background: #FFFFFF;
+    padding: 0px 40% 0px 5px !important;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+#hugeit-contact-wrapper_4 .file-block .uploadbutton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 38%;
+    border-top: 1px solid #328FE6 !important;
+    border-bottom: 1px solid #328FE6 !important;
+    border-right: 1px solid #328FE6 !important;
+    border-top-right-radius: 1px !important;
+    border-bottom-right-radius: 1px !important;
+    height: 28px;
+    padding: 0px 1%;
+    margin: 0px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #328FE6;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-sizing: content-box;
+}
+#hugeit-contact-wrapper_4 .file-block:hover .uploadbutton {
+    color: #FFFFFF;
+    background: #328FE6;
+    vertical-align: baseline;
+}
+#hugeit-contact-wrapper_4 .file-block .uploadbutton i {
+    color: #FFFFFF;
+    font-size: 14px;
+    vertical-align: baseline;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#hugeit-contact-wrapper_4 .file-block:hover .uploadbutton {
+    color: #F9F9F9;
+    background: #137ADB;
+}
+#hugeit-contact-wrapper_4 .file-block:hover .uploadbutton i {
+    color: #F9F9F9;
+}
+#hugeit-contact-wrapper_4 .file-block input[type='file'] {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    cursor: pointer;
+}
+/*###########CAPTCHA#############*/
+
+#hugeit-contact-wrapper_4 .captcha-block div {
+    margin-right: -1px;
+    float: right;
+}
+/*############BUTTONS#############*/
+
+#hugeit-contact-wrapper_4 .buttons-block {
+    text-align: left;
+}
+#hugeit-contact-wrapper_4 .buttons-block button {
+    height: auto;
+    padding: 6px 12px 6px 12px;
+    cursor: pointer;
+    text-transform: none;
+    font-size: 14px;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.submit {
+    color: #FFFFFF !important;
+    background-color: rgb(241, 201, 106) !important;
+    border: 1px solid rgb(241, 201, 106) !important;
+    border-radius: 1px !important;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    margin: 0px 0px 5px 0px !important;
+    background-image: none !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.submit:hover {
+    color: #F0F0F0 !important;
+    background: #137ADB !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.submit i {
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    vertical-align: baseline !important;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.submit:hover i {
+    color: #FFFFFF !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.reset {
+    color: #FFFFFF !important;
+    background-color: #328FE6 !important;
+    border: 1px solid #328FE6 !important;
+    border-radius: 1px !important;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    background-image: none !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.reset:hover {
+    color: #FFFFFF !important;
+    background: #137ADB !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.reset i {
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    vertical-align: baseline !important;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+#hugeit-contact-wrapper_4 .buttons-block button.reset:hover i {
+    color: #F9F9F9 !important;
+}
+</style>
+<script>
+jQuery(document).ready(function () {
+    /*FRONT END PREVIEW FROM ADMIN JS*/
+    jQuery(".hugeit-contact-column-block input[type='file']").on('change', function () {
+        var value = jQuery(this).val().substr(jQuery(this).val().indexOf('fakepath') + 9);
+        jQuery(this).parent().find('input[type="text"]').val(value);
+    });
+
+    jQuery(".hugeit-contact-column-block select").on('change', function () {
+        jQuery(this).prev('.textholder').val(jQuery(this).val());
+    });
+});
+</script>
+<form action="" method="post" enctype="multipart/form-data" verified="0" id="huge_it_contact_form_4" class="hugeit_form">
+    <div id="hugeit-contact-wrapper_4" class="medium-radio medium-checkbox">
+        <div>
+            <div class="hugeit-contact-column-block hugeit-contact-block-left" id="hugeit-contact-block-left">
+                <div class="hugeit-field-block hugeit-radio-field" rel="huge-contact-field-38">
+                    <label class="formsAboveAlign" for="hugeit_preview_textbox_38" style="font-weight: bold; font-size: 19px; color: #023158; margin-top: -15px; margin-bottom: 6px;">BOOKING REQUEST</label>
+                    <div class="field-block radio-field-block formsAboveAlign">
+                        <ul id="hugeit_preview_textbox_38" class="hugeit-radiobox-list">
+                            <li style="width:50%;">
+                                <label class="secondary-label">
+                                    <div class="radio-block big">
+                                        <input checked="checked" value="Round Trip" name="huge_it_4_38" type="radio">
+                                        <i class="hugeicons-dot-circle-o active"></i>
+                                        <i class="hugeicons-circle-o passive"></i>
+                                    </div>
+                                    <span class="sublable">Round Trip</span>
+                                </label>
+                            </li>
+                            <li style="width:50%;">
+                                <label class="secondary-label">
+                                    <div class="radio-block big">
+                                        <input value="One Way" name="huge_it_4_38" type="radio">
+                                        <i class="hugeicons-dot-circle-o active"></i>
+                                        <i class="hugeicons-circle-o passive"></i>
+                                    </div>
+                                    <span class="sublable">One Way</span>
+                                </label>
+                            </li>
+                            <li style="width:50%;">
+                                <label class="secondary-label">
+                                    <div class="radio-block big">
+                                        <input value="Charter" name="huge_it_4_38" type="radio">
+                                        <i class="hugeicons-dot-circle-o active"></i>
+                                        <i class="hugeicons-circle-o passive"></i>
+                                    </div>
+                                    <span class="sublable">Charter</span>
+                                </label>
+                            </li>
+                            <li style="width:50%;">
+                                <label class="secondary-label">
+                                    <div class="radio-block big">
+                                        <input value="Tour" name="huge_it_4_38" type="radio">
+                                        <i class="hugeicons-dot-circle-o active"></i>
+                                        <i class="hugeicons-circle-o passive"></i>
+                                    </div>
+                                    <span class="sublable">Tour</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <table border="0" cellpadding="1" cellspacing="0" style="width: 200px">
+                    <tr>
+                        <td>
+                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_3">
+                                <label class="formsAboveAlign" for="hugeit_preview_textbox_3">FROM<em class="required-star">*</em></label>
+                                <div class="field-block selectbox-block formsAboveAlign">
+                                    <input disabled="disabled" class="textholder" value="Select City" type="text">
+                                    <select id="hugeit_preview_textbox_3" class="required" name="huge_it_4_3">
+                                        <option>Excursion Inlet</option>
+                                        <option>Glacier Bay</option>
+                                        <option>Gustavus </option>
+                                        <option>Icy Strait</option>
+                                        <option>Haines </option>
+                                        <option>Hoonah</option>
+                                        <option>Juneau</option>
+                                        <option>Skagway</option>
+                                        <option>Carter/Other</option>
+                                        <option selected="selected" disabled="disabled">Select City</option>
+                                    </select>
+                                    <span class="hugeit-error-message"></span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_34">
+                                <label class="formsAboveAlign" for="hugeit_preview_textbox_34">TO<em class="required-star">*</em></label>
+                                <div class="field-block selectbox-block formsAboveAlign">
+                                    <input disabled="disabled" class="textholder" value="Select City" type="text">
+                                    <select id="hugeit_preview_textbox_34" class="required" name="huge_it_4_34">
+                                        <option>Excursion Inlet</option>
+                                        <option>Glacier Bay</option>
+                                        <option>Gustavus</option>
+                                        <option>Haines </option>
+                                        <option>Hoonah</option>
+                                        <option>Icy Strait </option>
+                                        <option>Juneau</option>
+                                        <option>Skagway</option>
+                                        <option>Charter/OTHER</option>
+                                        <option selected="selected" disabled="disabled">Select City</option>
+                                    </select>
+                                    <i class="hugeicons-chevron-down"></i>
+                                    <span class="hugeit-error-message"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_8">
+                                <label class="formsAboveAlign" for="hugeit_preview_textbox_8">DEPARTING<em class="required-star">*</em> </label>
+                                <div class="field-block input-text-block formsAboveAlign">
+                                    <input id="hugeit_preview_textbox_8" name="huge_it_4_8" placeholder="DD/MM/YY" style="width: 99px" class="required" type="date">
+                                    <span class="hugeit-error-message"></span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <label class="formsAboveAlign" for="hugeit_preview_textbox_39">RETURNING </label>
+                            <div class="field-block input-text-block formsAboveAlign">
+                                <input id="hugeit_preview_textbox_39" name="huge_it_4_39" placeholder="DD/MM/YY" style="width: 101px" class="" type="date">
+                                <span class="hugeit-error-message"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_6">
+                                <label class="formsAboveAlign" for="hugeit_preview_textbox_6">FIRST NAME<em class="required-star">*</em> </label>
+                                <div class="field-block input-text-block formsAboveAlign">
+                                    <input id="hugeit_preview_textbox_6" name="huge_it_4_6" placeholder="Sally" class="required" type="text">
+                                    <span class="hugeit-error-message"></span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_5">
+                                <label class="formsAboveAlign" for="hugeit_preview_textbox_5">LAST NAME </label>
+                                <div class="field-block input-text-block formsAboveAlign">
+                                    <input id="hugeit_preview_textbox_5" name="huge_it_4_5" placeholder="Jones" class="" type="text">
+                                    <span class="hugeit-error-message"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td></td><td></td></tr>
+                </table>
+                <div class="hugeit-field-block" rel="huge-contact-field-41">
+                    <label for="hugeit_preview_textbox_41" style="display: inline; float: none">TOTAL&nbsp;PASSENGERS<em class="required-star">*</em> </label>
+                    <input id="hugeit_preview_textbox_41" name="huge_it_4_41" placeholder="" style="width: 40px; margin-left: 3px" value="1" min="1" class="required" type="number">
+                    <div class="field-block input-text-block">
+
+                        <span class="hugeit-error-message"></span>
+                    </div>
+                </div>
+
+                <div rel="huge-contact-field-7" class="hugeit-field-block">
+                    <label for="hugeit_preview_textbox_7" class="formsLeftAlign" style="display: inline; float: none">E-MAIL<em class="required-star">*</em> </label>
+                    <input type="email" class="required" placeholder="sample@domain.com" name="huge_it_4_7" style="width: 140px; height: 19px; margin-left: 3px" id="hugeit_preview_textbox_7">
+                    <div class="field-block input-text-block email-block ">
+
+                        <span class="hugeit-error-message"></span>
+                    </div>
+                </div>
+
+                <div class="hugeit-field-block" rel="huge-contact-field-1">
+                    <label class="formsLeftAlign" for="hugeit_preview_textbox_1" style="display: inline; float: none">PHONE<em class="required-star">*</em> </label>
+                    <input id="hugeit_preview_textbox_1" name="huge_it_4_1" placeholder="1 (907) 555-9999" style="width: 140px; height: 19px; margin-left: 3px" class="required" type="text">
+                    <div class="field-block input-text-block">
+
+                        <span class="hugeit-error-message"></span>
+                    </div>
+                </div>
+                <div class="hugeit-field-block" rel="huge-contact-field-9">
+                    <label class="formsAboveAlign" for="hugeit_preview_textbox_9">SPECIAL REQUESTS</label>
+                    <div class="field-block textarea-block formsAboveAlign">
+                        <textarea style="height:80px;resize:vertical;" name="huge_it_4_9" id="hugeit_preview_textbox_9" class="" placeholder="Please let us know if you have any special needs"></textarea>
+                        <span class="hugeit-error-message"></span>
+                    </div>
+                </div>
+                <div class="hugeit-field-block buttons-block" rel="huge-contact-field-10">
+                    <button type="submit" class="submit" id="hugeit_preview_button__submit_10" value="Submit">
+                        <i class="hugeicons-envelope-o"></i>														Submit Request
+                    </button>
+                </div>
+            </div>
+            <div class="hugeit-contact-column-block hugeit-contact-block-right" id="hugeit-contact-block-right">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <input value="hc_email_r" name="hc_email_r" type="hidden">
+    <input value="ok" name="submitok" type="hidden">
+</form>
+<script>
+jQuery(document).ready(function(){
+	var requiredError='Please Fill This Field';
+    var captchaError='Please tick on Captcha box';
+    var emailError='Incorrect Email';
+    var uploadTypeError='Unacceptable file type';
+    var uploadSizeError='Exceeds limits on uploaded file';
+    function isValidEmailAddress(emailAddress) {
+			var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+			return pattern.test(emailAddress);
+	};
+	function Validate(oForm,_validFileExtensions) {
+		var arrInputs = document.getElementsByTagName("input");
+		for (var i = 0; i < arrInputs.length; i++) {
+		    var oInput = arrInputs[i];
+		    if (oInput.type == "file") {
+		        var sFileName = oInput.value;
+		        if (sFileName.length > 0) {
+		            var blnValid = false;
+		            for (var j = 0; j < _validFileExtensions.length; j++) {
+		                var sCurExtension = _validFileExtensions[j];
+		                if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+		                    blnValid = true;
+		                    break;
+		                }
+		            }
+		            if (!blnValid) {
+		                return false;
+		            }
+		        }
+		    }
+		}
+		return true;
+	}
+	jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').not('.buttons-block').not('.captcha-block').each(function(){
+        if(jQuery(this).find('div.input-text-block >input').hasClass('required')){
+        	var text_emailField=jQuery(this).find('input');
+        	text_emailField.on('blur',function(){
+        		if(jQuery(this).val().trim()==''){
+        			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+        			jQuery(this).parent().parent().find('label').addClass('error');
+        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+        		}else{
+        			jQuery(this).parent().find('.hugeit-error-message').text('');
+        			jQuery(this).parent().parent().find('label').removeClass('error');
+        			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+        		}
+        	})
+        }
+        if(jQuery(this).find('div.textarea-block >textarea').hasClass('required')){
+        	var textarea_field=jQuery(this).find('textarea');
+        	textarea_field.on('blur',function(){
+        		if(jQuery(this).val().trim()==''){
+        			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+        			jQuery(this).parent().parent().find('label').addClass('error');
+        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+        		}else{
+        			jQuery(this).parent().find('.hugeit-error-message').text('');
+        			jQuery(this).parent().parent().find('label').removeClass('error');
+        			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+        		}
+        	})
+        }
+        if(jQuery(this).find('div.email-block >input').attr('type')=='email'){
+        	var emailField=jQuery(this).find('input');
+        	emailField.on('blur',function(){
+        		if(jQuery(this).val()!=''){
+        			if(!isValidEmailAddress(jQuery(this).val())){
+	        			jQuery(this).parent().find('.hugeit-error-message').text(emailError);
+	        			jQuery(this).parent().parent().find('label').addClass('error');
+	        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+	        		}else{
+	        			jQuery(this).parent().find('.hugeit-error-message').text('');
+	        			jQuery(this).parent().parent().find('label').removeClass('error');
+	        			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+	        		}
+        		}
+        	})
+        }
+        if(jQuery(this).find('div.file-block >input[type="file"]').attr('type')=='file'){
+        	var fileInput=jQuery(this).find('input[type="file"]');
+        	var maxSize = fileInput.parent().find('input[name="MAX_FILE_SIZE"]').val();
+        	fileInput.on('blur',function(){
+        		var typeStr = jQuery(this).parent().find('input[name="fileTypeArr"]').val().trim();
+        		typeStr = typeStr.replace(/\s+/g, '');
+				var _validFileExtensions = typeStr.split(",");
+				if(fileInput.val()!=''){
+					var validREsult=Validate(jQuery('#huge_it_contact_form_4'),_validFileExtensions);
+					if(!validREsult){
+						jQuery(this).parent().find('.hugeit-error-message').text(uploadTypeError);
+						jQuery(this).parent().parent().find('label').addClass('error');
+						jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+						jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+					}else{
+						if(fileInput.val()!=''){
+			        		var fileSize = fileInput.get(0).files[0].size;
+			    		}
+			    		if(jQuery(this).hasClass('required')&&jQuery(this).val().trim()==''){
+			    			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+			    			jQuery(this).parent().parent().find('label').addClass('error');
+			    			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+			    		}else if(fileSize>maxSize){
+			    			jQuery(this).parent().find('.hugeit-error-message').text(uploadSizeError);
+			    			jQuery(this).parent().parent().find('label').addClass('error');
+			    			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+			    		}else{
+			    			jQuery(this).parent().find('.hugeit-error-message').text('');
+			    			jQuery(this).parent().parent().find('label').removeClass('error');
+			    			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+			    		}
+					}
+				}else{
+					if(jQuery(this).hasClass('required')&&jQuery(this).val().trim()==''){
+		    			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+		    			jQuery(this).parent().parent().find('label').addClass('error');
+		    			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+		    		}else{
+		    			jQuery(this).parent().find('.hugeit-error-message').text('');
+		    			jQuery(this).parent().parent().find('label').removeClass('error');
+		    			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+		    		}
+				}
+        	})
+        }
+    });
+	var captchaExists='no';
+jQuery( "#huge_it_contact_form_4" ).on( "submit", function(e){
+	    e.preventDefault();
+	    var errorsAllow='yes';
+		var nVer = navigator.appVersion;
+		var nAgt = navigator.userAgent;
+		var browserName  = navigator.appName;
+		var fullVersion  = ''+parseFloat(navigator.appVersion);
+		var majorVersion = parseInt(navigator.appVersion,10);
+		var nameOffset,verOffset,ix;
+
+	// In Opera 15+, the true version is after "OPR/"
+	if ((verOffset=nAgt.indexOf("OPR/"))!=-1) {
+		browserName = "Opera";
+		fullVersion = nAgt.substring(verOffset+4);
+	}
+	// In older Opera, the true version is after "Opera" or after "Version"
+	else if ((verOffset=nAgt.indexOf("Opera"))!=-1) {
+		browserName = "Opera";
+		fullVersion = nAgt.substring(verOffset+6);
+		if ((verOffset=nAgt.indexOf("Version"))!=-1)
+		fullVersion = nAgt.substring(verOffset+8);
+	}
+	// In MSIE, the true version is after "MSIE" in userAgent
+	else if ((verOffset=nAgt.indexOf("MSIE"))!=-1) {
+		browserName = "MSIE";
+		fullVersion = nAgt.substring(verOffset+5);
+	}
+	// In Chrome, the true version is after "Chrome"
+	else if ((verOffset=nAgt.indexOf("Chrome"))!=-1) {
+		browserName = "Chrome";
+		fullVersion = nAgt.substring(verOffset+7);
+	}
+	// In Safari, the true version is after "Safari" or after "Version"
+	else if ((verOffset=nAgt.indexOf("Safari"))!=-1) {
+		browserName = "Safari";
+		fullVersion = nAgt.substring(verOffset+7);
+		if ((verOffset=nAgt.indexOf("Version"))!=-1)
+		fullVersion = nAgt.substring(verOffset+8);
+	}
+	// In Firefox, the true version is after "Firefox"
+	else if ((verOffset=nAgt.indexOf("Firefox"))!=-1) {
+		browserName = "Firefox";
+		fullVersion = nAgt.substring(verOffset+8);
+	}
+	// In most other browsers, "name/version" is at the end of userAgent
+	else if ( (nameOffset=nAgt.lastIndexOf(' ')+1) <
+		        (verOffset=nAgt.lastIndexOf('/')) )
+	{
+		browserName = nAgt.substring(nameOffset,verOffset);
+		fullVersion = nAgt.substring(verOffset+1);
+		if (browserName.toLowerCase()==browserName.toUpperCase()) {
+		browserName = navigator.appName;
+		}
+	}
+	// trim the fullVersion string at semicolon/space if present
+	if ((ix=fullVersion.indexOf(";"))!=-1)
+		fullVersion=fullVersion.substring(0,ix);
+	if ((ix=fullVersion.indexOf(" "))!=-1)
+		fullVersion=fullVersion.substring(0,ix);
+
+	majorVersion = parseInt(''+fullVersion,10);
+	if (isNaN(majorVersion)) {
+			fullVersion  = ''+parseFloat(navigator.appVersion);
+			majorVersion = parseInt(navigator.appVersion,10);
+	}
+////
+    jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').not('.buttons-block').each(function(){
+	        if(jQuery(this).find('div.input-text-block >input').hasClass('required')){
+	        	var text_emailField=jQuery(this).find('input');
+	        		if(text_emailField.val().trim()==''){
+	        			text_emailField.parent().find('.hugeit-error-message').text(requiredError);
+	        			text_emailField.parent().parent().find('label').addClass('error');
+	        			text_emailField.parent().parent().find('label>em.required-star').addClass('error');
+	        			errorsAllow='no';
+	        		}else{
+	        			text_emailField.parent().find('.hugeit-error-message').text('');
+	        			text_emailField.parent().parent().find('label').removeClass('error');
+	        		}
+	        }
+	        if(jQuery(this).find('div.textarea-block >textarea').hasClass('required')){
+	        	var textarea_field=jQuery(this).find('textarea');
+	        		if(textarea_field.val().trim()==''){
+	        			textarea_field.parent().find('.hugeit-error-message').text(requiredError);
+	        			textarea_field.parent().parent().find('label').addClass('error');
+	        			textarea_field.parent().parent().find('label>em.required-star').addClass('error');
+	        			errorsAllow='no';
+	        		}else{
+	        			textarea_field.parent().find('.hugeit-error-message').text('');
+	        			textarea_field.parent().parent().find('label').removeClass('error');
+	        		}
+	        }
+	        if(jQuery(this).find('div.email-block >input').attr('type')=='email'){
+	        	var emailField=jQuery(this).find('input');
+	        	emailField.on('blur',function(){
+	        		if(jQuery(this).val()!=''){
+	        			if(!isValidEmailAddress(jQuery(this).val())){
+		        			jQuery(this).parent().find('.hugeit-error-message').text(emailError);
+		        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+		        			errorsAllow='no';
+		        		}else{
+		        			jQuery(this).parent().find('.hugeit-error-message').text('');
+		        		}
+	        		}
+	        	})
+	        }
+	        if(jQuery(this).find('div.selectbox-block >select').hasClass('required')){
+	        	var selectField=jQuery(this).find('div.selectbox-block >select');
+	        	if(selectField.val()==null){
+        			selectField.parent().find('.hugeit-error-message').text(requiredError);
+	    			selectField.parent().parent().find('label').addClass('error');
+	    			selectField.parent().parent().find('label>em.required-star').addClass('error');
+	    			errorsAllow='no';
+        		}else{
+        			selectField.parent().find('.hugeit-error-message').text('');
+        			selectField.parent().parent().find('label').removeClass('error');
+        		}
+	        }
+	        if(jQuery(this).find('div.file-block >input[type="file"]').attr('type')=='file'){
+	        	var fileInput=jQuery(this).find('input[type="file"]');
+	        	var maxSize = fileInput.parent().find('input[name="MAX_FILE_SIZE"]').val();
+	        		var typeStr = fileInput.parent().find('input[name="fileTypeArr"]').val().trim();
+	        		typeStr = typeStr.replace(/\s+/g, '');
+					var _validFileExtensions = typeStr.split(",");
+					if(fileInput.val()!=''){
+						var validREsult=Validate(jQuery('#huge_it_contact_form_4'),_validFileExtensions);
+						if(!validREsult){
+							fileInput.parent().find('.hugeit-error-message').text(uploadTypeError);
+							fileInput.parent().parent().find('label').addClass('error');
+							fileInput.parent().parent().find('label>em.required-star').addClass('error');
+							errorsAllow='no';
+						}else{
+							if(fileInput.val()!=''){
+				        		var fileSize = fileInput.get(0).files[0].size;
+				    		}
+				    		if(fileInput.hasClass('required')&&fileInput.val().trim()==''){
+				    			fileInput.parent().find('.hugeit-error-message').text(requiredError);
+				    			fileInput.parent().parent().find('label').addClass('error');
+				    			fileInput.parent().parent().find('label>em.required-star').addClass('error');
+				    			errorsAllow='no';
+				    		}else if(fileSize>maxSize){
+				    			fileInput.parent().find('.hugeit-error-message').text(uploadSizeError);
+				    			fileInput.parent().parent().find('label').addClass('error');
+				    			fileInput.parent().parent().find('label>em.required-star').addClass('error');
+				    			errorsAllow='no';
+				    		}else{
+				    			fileInput.parent().find('.hugeit-error-message').text('');
+				    			fileInput.parent().parent().find('label').removeClass('error');
+				    		}
+						}
+					}else{
+						if(fileInput.hasClass('required')&&fileInput.val().trim()==''){
+			    			fileInput.parent().find('.hugeit-error-message').text(requiredError);
+			    			fileInput.parent().parent().find('label').addClass('error');
+			    			fileInput.parent().parent().find('label>em.required-star').addClass('error');
+			    			errorsAllow='no';
+			    		}else{
+			    			fileInput.parent().find('.hugeit-error-message').text('');
+			    			fileInput.parent().parent().find('label').removeClass('error');
+			    		}
+					}
+	        }
+	        if(jQuery(this).hasClass('captcha-block')){
+	        	captchaExists='yes';
+	        }
+	    })
+	    if(captchaExists=='yes'){
+	        if(jQuery('#huge_it_contact_form_4').attr('verified')==0){
+				if(!jQuery(this).find('div.captcha-block #huge_it_captcha_4').find('span').length){
+	        		jQuery(this).find('div.captcha-block #huge_it_captcha_4').append('<span style="text-align:right;" class="hugeit-error-message">'+captchaError+'</span>')
+	        	}
+		 		errorsAllow='no';
+		 	}else{
+		 		jQuery(this).find('div.captcha-block').find('span.hugeit-error-message').text('');
+		 	}
+	    }
+	 	if(errorsAllow=='yes'){
+			var fd = new FormData();
+		    var files_data = jQuery('.fileUploader');
+		    var self=jQuery(this);
+		    var postData=self.serialize();
+		    jQuery.each(jQuery(files_data), function(i, obj) {
+		        jQuery.each(obj.files,function(j,file){
+		            fd.append(obj.name, file);
+		        })
+		    });
+
+		    fd.append('action', 'hugeit_validation_action');
+		    fd.append('formId', '4');
+		    fd.append('browser',browserName);
+		    fd.append('nonce', huge_it_obj.nonce);
+		    fd.append('postData', postData);
+	        jQuery.ajax({
+		        type: 'POST',
+		        url: 'http://wp.wingsofalaska.com/wp-admin/admin-ajax.php',
+		        nonce:huge_it_obj.nonce,
+		        data: fd,
+		        contentType: false,
+		        processData: false,
+		        beforeSend: function(){
+		            var buttonsHeightBs=jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').height();
+					var buttonsWidthBs=jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').width();
+					jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').append('<span class="huge_it_button_overlay"style="line-height:'+buttonsHeightBs+'px;height:'+buttonsHeightBs+'px;width:'+buttonsWidthBs+'px;"><img id="buttLoad" src="http://wp.wingsofalaska.com/wp-content/plugins/forms-contact/images/279.GIF"></span>');
+				},
+		        success: function(response){
+		            var response = jQuery.parseJSON(response);
+					if(response.markedAsSpam){
+						jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
+						var buttonField=response.spamButton;
+						jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+						jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+						document.getElementById("huge_it_contact_form_4").reset();
+						var buttonsHeight=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').height()+3;
+						var buttonsWidth=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').width()-2;
+						var spamText=response.markedAsSpam;
+						jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').empty().append('<span class="huge_it_spam_msg"style="line-height:'+buttonsHeight+'px;height:'+buttonsHeight+'px;width:'+buttonsWidth+'px;"><span>'+spamText+'</span></span>');
+					}else if(response.errors){
+
+						jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
+						if(captchaExists=='yes'){
+							grecaptcha.reset(recaptchas[4]);
+						}
+						jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+						jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+						jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label>em.required-star').removeClass('error');
+
+						jQuery.each( response.errors, function( key, value ) {
+							jQuery('#hugeit-contact-wrapper_4').find('div [rel="'+key+'"]').find('span.hugeit-error-message').append(value);
+							jQuery('#hugeit-contact-wrapper_4').find('div [rel="'+key+'"]').find('label').addClass('error');
+							jQuery('#hugeit-contact-wrapper_4').find('div [rel="'+key+'"]').find('label>em.required-star').addClass('error');
+						});
+					}else if(response.success){
+						if(response.afterSubmit=='print_success_message'){
+							jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
+							var buttonField=response.buttons;
+							var successText=response.success;
+							var buttonsHeight=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').height()+3;
+							var buttonsWidth=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').width()-2;
+							jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').empty().append('<span class="huge_it_success_msg"style="line-height:16px;height:'+buttonsHeight+'px;width:'+buttonsWidth+'px;"><span>'+successText+'</span></span>');
+							document.getElementById("huge_it_contact_form_4").reset();
+							jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+							jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+						}else if(response.afterSubmit=='refresh_page'){
+							jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
+							location.reload();
+						}else if(response.afterSubmit=='go_to_url'){
+							jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
+							document.getElementById("huge_it_contact_form_4").reset();
+							jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+							jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+							var redirectUrl=response.afterSubmitUrl;
+							window.location.href=redirectUrl;
+						}
+
+					}
+		        }
+		    });
+	 	}else{
+	 		//alert(0)
+	 	}
+   	});
+	jQuery( "#huge_it_contact_form_4" ).on( "reset", function(e) {
+	 	if(captchaExists=='yes'){
+	 		grecaptcha.reset(recaptchas[4]);
+	 	}
+	 	jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+		jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+		jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label>em.required-star').removeClass('error');
+	});
+
+
+
+})
+</script></div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="cleared"></div>
+<div id=footernav style='text-align:left;'>
+
+
+			<div id="footer-widget-area" role="complementary">
+
+
+				<div id="second" class="widget-area foot-widget-2">
+					<ul class="xoxo">
+						<div class="Block">
+    <div class="Block-tl"></div>
+    <div class="Block-tr"><div></div></div>
+    <div class="Block-bl"><div></div></div>
+    <div class="Block-br"><div></div></div>
+    <div class="Block-tc"><div></div></div>
+    <div class="Block-bc"><div></div></div>
+    <div class="Block-cl"><div></div></div>
+    <div class="Block-cr"><div></div></div>
+    <div class="Block-cc"></div>
+    <div class="Block-body">
+<div class="BlockContent">
+    <div class="BlockContent-body">
+<div class="socialmedia-buttons smw_left"><a href="https://www.facebook.com/WingsofAlaska" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.wingsofalaska.com/wp-content/plugins/social-media-widget/images/default/32/facebook.png"
+				alt="Follow Us on Facebook"
+				title="Follow Us on Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="mailto: reservations@wingsofalaska.com" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.wingsofalaska.com/wp-content/plugins/social-media-widget/images/default/32/email.png"
+				alt="Follow Us on E-mail"
+				title="Follow Us on E-mail" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a></div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+					</ul>
+				</div><!-- #second .widget-area -->
+
+
+
+			</div><!-- #footer-widget-area -->
+</div><div class="cleared"></div>
+<div class="Footer">
+    <div class="Footer-inner">
+                <a href="http://www.wingsofalaska.com/?feed=rss2" class="rss-tag-icon" title="RSS"></a>
+                <div class="Footer-text">
+<p>
+<div id=hidden style='display:none;'></div>
+
+<!-- <a href="#">Contact Us</a> | <a href="#">Terms of Use</a> | <a href="#">Trademarks</a>
+| <a href="#">Privacy Statement</a> | -->
+<a href="http://www.wingsofalaska.com/wp-login.php">Log in</a> <br>
+    Copyright &copy; 2016 Wings of Alaska. All Rights Reserved.</p>
+</div>
+    </div>
+    <div class="Footer-background">
+    </div>
+</div>
+
+</div>
+</div>
+<div><p class="page-footer">
+Blog System by Wordpress.org - Free WordPress Themes from <a href="http://www.freewordpressthemes4u.com/category/contemporary">contemporary theme wordpress</a> Provided Free by <a href="http://healthcoverdeals.com/hcdindex/www.bupa.co.uk">bupa.co.uk medical insurance</a>
+</p><style>
+
+
+h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.logo-name a:hover{
+color:transparent !important;
+text-align:left;
+font-size:20px;
+}
+.logo-text, .logo-text a{
+color:#F1C96A !important;
+text-align:left;
+font-size:17px;
+}
+.logo{
+left: 533px;
+top:151px;
+width: 366px;
+}
+
+
+
+
+
+
+
+</style>
+<script defer async type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=hugeit_forms_onloadCallback&#038;render=explicit&#038;ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.wingsofalaska.com/wp-includes/js/wp-embed.min.js?ver=4.5.1'></script>
+</div>
+</div>
+
+<!-- 28 queries. 0.071 seconds. -->
+</body>
+</html>
