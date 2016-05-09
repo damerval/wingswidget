@@ -1,17 +1,28 @@
-<script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="jqx.base.css" />
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"
+        integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+<script src="jqxcore.js" type="text/javascript" language="javascript"></script>
+<script src="jqxradiobutton.js" type="text/javascript" language="javascript"></script>
+<script src="jqxbuttons.js" type="text/javascript" language="javascript"></script>
+<script src="jqxpanel.js" type="text/javascript" language="javascript"></script>
+<script src="jqxscrollbar.js" type="text/javascript" language="javascript"></script>
+
 <style>
-/*########### PREVIEW CONTAINER ##############*/
+  /*########### PREVIEW CONTAINER ##############*/
 
-#hugeit-contact-wrapper_4 input, #hugeit-contact-wrapper_4 select {font-size: 11px}
-input[type=date]::-webkit-inner-spin-button,
-input[type=date]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+  #hugeit-contact-wrapper_4 input, #hugeit-contact-wrapper_4 select { font-size: 11px }
 
-#hugeit-contact-wrapper_4 li {background-image: none;}
-input {width: 100%}
-#hugeit-contact-preview-container {
+  input[type=date]::-webkit-inner-spin-button,
+  input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  #hugeit-contact-wrapper_4 li { background-image: none; }
+
+  input { width: 100% }
+
+  #hugeit-contact-preview-container {
     position: relative;
     float: right;
     width: 60%;
@@ -19,11 +30,13 @@ input {width: 100%}
     padding: 10px 0px 10px 0px;
     background: #fff;
     min-width: 310px;
-}
-#hugeit-contact-wrapper_4 {
+  }
+
+  #hugeit-contact-wrapper_4 {
     margin: 0px auto;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block {
     position: relative;
     float: left;
     width: 94%;
@@ -31,150 +44,179 @@ input {width: 100%}
     margin: 0px 1% 0px 1%;
     height: auto;
     min-height: 30px;
-}
-#hugeit-contact-wrapper_4 div.multicolumn .hugeit-contact-column-block {
+  }
+
+  #hugeit-contact-wrapper_4 div.multicolumn .hugeit-contact-column-block {
     width: 47%;
     padding-top: 10px;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block {
     padding-top: 10px;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div {
     width: 100%;
     padding: 5px 0px 5px 0px;
     clear: both;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hugeit-check-field,
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hugeit-radio-field {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hugeit-check-field,
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hugeit-radio-field {
     padding: 5px 0px 5px 0px;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.buttons-block {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.buttons-block {
     position: relative;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hover-active {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.hover-active {
     border: 2px dashed #2EA2CC;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
     margin-left: -4px;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.captcha-block {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div.captcha-block {
     /*height:78px;*/
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label {
     display: block;
     width: 38%;
     float: left;
     cursor: pointer;
     margin-right: 2%;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block {
     display: inline-block;
     width: 60%;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block select,
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block textarea,
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="text"],
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="password"],
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="name"],
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="email"],
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="number"] {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block select,
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block textarea,
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="text"],
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="password"],
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="name"],
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="email"],
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block input[type="number"] {
     width: 100%;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul {
     width: 100%;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li {
     float: left;
     line-height: 1 !important;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li label {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li label {
     margin: 0px 10px 0px 0px;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li label span.sublable {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .field-block ul li label span.sublable {
     vertical-align: super;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div ul {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div ul {
     position: relative;
     display: table !important;
     padding: 0px !important;
     margin: 0px !important;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label ul li {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label ul li {
     clear: both;
     padding: 0px !important;
     margin: 0px !important;
-}
-#hugeit-contact-wrapper_4 #huge_it_captcha {
-    float: right;
-}
-/*FIELDS CUSTOM STYLES*/
-/*radio + checkbox*/
+  }
 
-#hugeit-contact-wrapper_4.big-radio .radio-block,
-#hugeit-contact-wrapper_4.big-checkbox .checkbox-block {
+  #hugeit-contact-wrapper_4 #huge_it_captcha {
+    float: right;
+  }
+
+  /*FIELDS CUSTOM STYLES*/
+  /*radio + checkbox*/
+
+  #hugeit-contact-wrapper_4.big-radio .radio-block,
+  #hugeit-contact-wrapper_4.big-checkbox .checkbox-block {
     width: 24px;
     height: 24px;
     border-radius: 13px;
-}
-#hugeit-contact-wrapper_4.big-radio .radio-block input:checked + span,
-#hugeit-contact-wrapper_4.big-checkbox .checkbox-block input:checked + span {
+  }
+
+  #hugeit-contact-wrapper_4.big-radio .radio-block input:checked + span,
+  #hugeit-contact-wrapper_4.big-checkbox .checkbox-block input:checked + span {
     width: 12px;
     height: 12px;
     border-radius: 6px;
     top: 5px;
     left: 5px;
-}
-#hugeit-contact-wrapper_4.medium-radio .radio-block,
-#hugeit-contact-wrapper_4.medium-checkbox .checkbox-block {
+  }
+
+  #hugeit-contact-wrapper_4.medium-radio .radio-block,
+  #hugeit-contact-wrapper_4.medium-checkbox .checkbox-block {
     width: 20px;
     height: 20px;
     border-radius: 10px;
-}
-#hugeit-contact-wrapper_4.medium-radio .radio-block input:checked + span,
-#hugeit-contact-wrapper_4.medium-checkbox .checkbox-block input:checked + span {
+  }
+
+  #hugeit-contact-wrapper_4.medium-radio .radio-block input:checked + span,
+  #hugeit-contact-wrapper_4.medium-checkbox .checkbox-block input:checked + span {
     width: 10px;
     height: 10px;
     border-radius: 5px;
     top: 4px;
     left: 4px;
-}
-#hugeit-contact-wrapper_4.small-radio .radio-block.small,
-#hugeit-contact-wrapper_4.small-checkbox .checkbox-block {
+  }
+
+  #hugeit-contact-wrapper_4.small-radio .radio-block.small,
+  #hugeit-contact-wrapper_4.small-checkbox .checkbox-block {
     width: 15px;
     height: 15px;
     border-radius: 8px;
-}
-#hugeit-contact-wrapper_4.small-radio .radio-block input:checked + span,
-#hugeit-contact-wrapper_4.small-checkbox .checkbox-block input:checked + span {
+  }
+
+  #hugeit-contact-wrapper_4.small-radio .radio-block input:checked + span,
+  #hugeit-contact-wrapper_4.small-checkbox .checkbox-block input:checked + span {
     width: 7px;
     height: 7px;
     border-radius: 7px;
     top: 3px;
     left: 3px;
-}
-#huge-it-captcha-popup > div > label {
+  }
+
+  #huge-it-captcha-popup > div > label {
     display: inline-block;
     height: 30px;
     width: 150px;
-}
-#huge-it-captcha-popup > div > input {
-    width: 350px;
-}
-/*######################## END OFO CHOR ######################*/
+  }
 
-body #hugeit-contact-wrapper_4 input,
-body #hugeit-contact-wrapper_4 textarea {
+  #huge-it-captcha-popup > div > input {
+    width: 350px;
+  }
+
+  /*######################## END OFO CHOR ######################*/
+
+  body #hugeit-contact-wrapper_4 input,
+  body #hugeit-contact-wrapper_4 textarea {
     padding: 0px;
     margin: 0px;
-}
-#hugeit-contact-wrapper_4 {
+  }
+
+  #hugeit-contact-wrapper_4 {
     width: 100%;
-}
-#hugeit-contact-wrapper_4 > div {
+  }
+
+  #hugeit-contact-wrapper_4 > div {
     border: 0px solid #EBECEC;
-}
-#hugeit-contact-wrapper_4 > div > h3 {
+  }
+
+  #hugeit-contact-wrapper_4 > div > h3 {
     position: relative;
     display: block;
     clear: both !important;
@@ -183,82 +225,97 @@ body #hugeit-contact-wrapper_4 textarea {
     line-height: 24px !important;
     color: #328FE6 !important;
     margin: 10px 0 15px 0 !important;
-}
-/*LABELS*/
+  }
 
-#hugeit-contact-wrapper_4 label {
+  /*LABELS*/
+
+  #hugeit-contact-wrapper_4 label {
     font-size: 10px;
     font-weight: bold;
     line-height: 16px !important;
     color: #444444;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
-#hugeit-contact-wrapper_4 .hugeit-field-block > label.error {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-field-block > label.error {
     color: #C2171D !important;
-}
-#hugeit-contact-wrapper_4 label em.required-star {
+  }
+
+  #hugeit-contact-wrapper_4 label em.required-star {
     color: #328FE6;
-}
-#hugeit-contact-wrapper_4 label em.error {
+  }
+
+  #hugeit-contact-wrapper_4 label em.error {
     color: #C2171D;
-}
-#hugeit-contact-wrapper_4 .hugeit-field-block span.hugeit-error-message {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-field-block span.hugeit-error-message {
     font-size: 12px !important;
     color: #C2171D;
     line-height: 16px !important;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     display: block;
     vertical-align: top;
-}
-#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_success_msg {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_success_msg {
     font-size: 16px !important;
     display: block;
     text-align: center;
     vertical-align: super;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     color: #00C60E;
-}
-#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_spam_msg {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_spam_msg {
     font-size: 16px !important;
     display: block;
     text-align: center;
     vertical-align: super;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     color: #C2171D;
-}
-#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_button_overlay {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_button_overlay {
     background: rgba(241, 241, 241, 0.85);
     position: absolute;
     top: 0px;
     left: 0px;
     text-align: center;
-}
-#hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_button_overlay > img#buttLoad {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-field-block span.huge_it_button_overlay > img#buttLoad {
     width: 20px;
     height: 20px;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsRightAlign {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsRightAlign {
     text-align: right !important;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsAboveAlign {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsAboveAlign {
     width: 100% !important;
     float: none !important;
     padding-bottom: 5px !important;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .formsAboveAlign {
-    width: 100% !important;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsInsideAlign {
-    display: none !important;
-}
-#hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .formsInsideAlign {
-    width: 100% !important;
-}
-/*FIELDS CUSTOM STYLES*/
-/*############INPUT TEXT############*/
+  }
 
-#hugeit-contact-wrapper_4 .input-text-block input,
-#hugeit-contact-wrapper_4 .input-text-block input:focus {
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .formsAboveAlign {
+    width: 100% !important;
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div > label.formsInsideAlign {
+    display: none !important;
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-contact-column-block > div .formsInsideAlign {
+    width: 100% !important;
+  }
+
+  /*FIELDS CUSTOM STYLES*/
+  /*############INPUT TEXT############*/
+
+  #hugeit-contact-wrapper_4 .input-text-block input,
+  #hugeit-contact-wrapper_4 .input-text-block input:focus {
     height: 20px;
     background: #FFFFFF;
     border: 1px solid #ABABAB !important;
@@ -272,10 +329,11 @@ body #hugeit-contact-wrapper_4 textarea {
     vertical-align: top !important;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-}
-/*############TEXTAREA############*/
+  }
 
-#hugeit-contact-wrapper_4 .textarea-block textarea {
+  /*############TEXTAREA############*/
+
+  #hugeit-contact-wrapper_4 .textarea-block textarea {
     background: #FFFFFF;
     border: 1px solid #ABABAB;
     border-radius: 2px;
@@ -285,101 +343,120 @@ body #hugeit-contact-wrapper_4 textarea {
     padding: 0px 0px 0px 5px !important;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-}
-/*############CHECKBOX RADIOBOX############ */
+  }
 
-#hugeit-contact-wrapper_4 .hugeit-checkbox-list {
+  /*############CHECKBOX RADIOBOX############ */
+
+  #hugeit-contact-wrapper_4 .hugeit-checkbox-list {
     list-style: none;
-}
-#hugeit-contact-wrapper_4 .hugeit-checkbox-list li,
-#hugeit-contact-wrapper_4 .hugeit-radiobox-list li {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-checkbox-list li,
+  #hugeit-contact-wrapper_4 .hugeit-radiobox-list li {
     margin: 0px 0px 6px 0px !important;
     padding: 0px !important;
     list-style: none;
-}
-#hugeit-contact-wrapper_4 .hugeit-checkbox-list li label,
-#hugeit-contact-wrapper_4 .hugeit-radiobox-list li label {
+  }
+
+  #hugeit-contact-wrapper_4 .hugeit-checkbox-list li label,
+  #hugeit-contact-wrapper_4 .hugeit-radiobox-list li label {
     cursor: pointer;
-}
-#hugeit-contact-wrapper_4 .radio-block,
-#hugeit-contact-wrapper_4 .checkbox-block {
+  }
+
+  #hugeit-contact-wrapper_4 .radio-block,
+  #hugeit-contact-wrapper_4 .checkbox-block {
     position: relative;
     float: left;
     margin: 0px 5px 0px 5px !important;
     display: block;
-}
-#hugeit-contact-wrapper_4 .radio-block input,
-#hugeit-contact-wrapper_4 .checkbox-block input {
+  }
+
+  #hugeit-contact-wrapper_4 .radio-block input,
+  #hugeit-contact-wrapper_4 .checkbox-block input {
     visibility: hidden;
     position: absolute;
     top: 0px;
     left: 0px;
-}
-#hugeit-contact-wrapper_4 .radio-block i {
+  }
+
+  #hugeit-contact-wrapper_4 .radio-block i {
     display: inline-block;
     float: left;
     width: 20px;
     color: #ABABAB;
     cursor: pointer;
-}
-#hugeit-contact-wrapper_4 .checkbox-block i {
+  }
+
+  #hugeit-contact-wrapper_4 .checkbox-block i {
     display: inline-block;
     float: left;
     width: 20px;
     color: #ABABAB;
-}
-#hugeit-contact-wrapper_4.big-radio .radio-block i,
-#hugeit-contact-wrapper_4.big-checkbox .checkbox-block i {
+  }
+
+  #hugeit-contact-wrapper_4.big-radio .radio-block i,
+  #hugeit-contact-wrapper_4.big-checkbox .checkbox-block i {
     font-size: 24px;
-}
-#hugeit-contact-wrapper_4.medium-radio .radio-block i,
-#hugeit-contact-wrapper_4.medium-checkbox .checkbox-block i {
+  }
+
+  #hugeit-contact-wrapper_4.medium-radio .radio-block i,
+  #hugeit-contact-wrapper_4.medium-checkbox .checkbox-block i {
     font-size: 20px;
-}
-#hugeit-contact-wrapper_4.small-radio .radio-block i,
-#hugeit-contact-wrapper_4.small-checkbox .checkbox-block i {
+  }
+
+  #hugeit-contact-wrapper_4.small-radio .radio-block i,
+  #hugeit-contact-wrapper_4.small-checkbox .checkbox-block i {
     font-size: 15px;
-}
-#hugeit-contact-wrapper_4 .radio-block i:hover {
-    color: #949292;
-}
-#hugeit-contact-wrapper_4.checkbox-block i:hover {
-    color: #949292;
-}
-#hugeit-contact-wrapper_4 .radio-block i.active,
-#hugeit-contact-wrapper_4 .checkbox-block i.active {
-    display: none;
-}
-/*Voch checked inputi motic heracnumenq active@*/
+  }
 
-#hugeit-contact-wrapper_4 .radio-block input:checked + i.active + i.passive,
-#hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active + i.passive {
+  #hugeit-contact-wrapper_4 .radio-block i:hover {
+    color: #949292;
+  }
+
+  #hugeit-contact-wrapper_4.checkbox-block i:hover {
+    color: #949292;
+  }
+
+  #hugeit-contact-wrapper_4 .radio-block i.active,
+  #hugeit-contact-wrapper_4 .checkbox-block i.active {
     display: none;
-}
-#hugeit-contact-wrapper_4 .radio-block input:checked + i.active,
-#hugeit-contact-wrapper_4 .radio-block input:checked + i.active:hover {
+  }
+
+  /*Voch checked inputi motic heracnumenq active@*/
+
+  #hugeit-contact-wrapper_4 .radio-block input:checked + i.active + i.passive,
+  #hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active + i.passive {
+    display: none;
+  }
+
+  #hugeit-contact-wrapper_4 .radio-block input:checked + i.active,
+  #hugeit-contact-wrapper_4 .radio-block input:checked + i.active:hover {
     display: inline-block;
     color: #328FE6;
-}
-#hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active,
-#hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active:hover {
+  }
+
+  #hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active,
+  #hugeit-contact-wrapper_4 .checkbox-block input:checked + i.active:hover {
     display: inline-block;
     color: #328FE6;
-}
-/*############SELECTBOX#############*/
+  }
 
-#hugeit-contact-wrapper_4 .selectbox-block {
+  /*############SELECTBOX#############*/
+
+  #hugeit-contact-wrapper_4 .selectbox-block {
     position: relative;
     height: 25px;
-}
-#hugeit-contact-wrapper_4 .selectbox-block select {
+  }
+
+  #hugeit-contact-wrapper_4 .selectbox-block select {
     position: relative;
     height: 22px;
     margin: 1px 0px 0px 1px !important;
     /*opacity: 0;*/
     z-index: 2;
-}
-#hugeit-contact-wrapper_4 .selectbox-block .textholder {
+  }
+
+  #hugeit-contact-wrapper_4 .selectbox-block .textholder {
     position: absolute;
     height: 24px;
     width: 90%;
@@ -397,22 +474,25 @@ body #hugeit-contact-wrapper_4 textarea {
     padding: 0px 10% 0px 5px !important;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-}
-#hugeit-contact-wrapper_4 .selectbox-block i {
+  }
+
+  #hugeit-contact-wrapper_4 .selectbox-block i {
     position: absolute;
     top: 6.25px;
     right: 10px;
     z-index: 0;
     color: #ABABAB;
     font-size: 12px;
-}
-/*############FILE#############*/
+  }
 
-#hugeit-contact-wrapper_4 .file-block {
+  /*############FILE#############*/
+
+  #hugeit-contact-wrapper_4 .file-block {
     position: relative;
     cursor: pointer;
-}
-#hugeit-contact-wrapper_4 .file-block .textholder {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block .textholder {
     position: relative;
     float: left;
     width: calc(60% - 7px) !important;
@@ -426,8 +506,9 @@ body #hugeit-contact-wrapper_4 textarea {
     padding: 0px 40% 0px 5px !important;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
-}
-#hugeit-contact-wrapper_4 .file-block .uploadbutton {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block .uploadbutton {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -449,27 +530,32 @@ body #hugeit-contact-wrapper_4 textarea {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     box-sizing: content-box;
-}
-#hugeit-contact-wrapper_4 .file-block:hover .uploadbutton {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block:hover .uploadbutton {
     color: #FFFFFF;
     background: #328FE6;
     vertical-align: baseline;
-}
-#hugeit-contact-wrapper_4 .file-block .uploadbutton i {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block .uploadbutton i {
     color: #FFFFFF;
     font-size: 14px;
     vertical-align: baseline;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-#hugeit-contact-wrapper_4 .file-block:hover .uploadbutton {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block:hover .uploadbutton {
     color: #F9F9F9;
     background: #137ADB;
-}
-#hugeit-contact-wrapper_4 .file-block:hover .uploadbutton i {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block:hover .uploadbutton i {
     color: #F9F9F9;
-}
-#hugeit-contact-wrapper_4 .file-block input[type='file'] {
+  }
+
+  #hugeit-contact-wrapper_4 .file-block input[type='file'] {
     height: 30px;
     width: 100%;
     position: absolute;
@@ -477,26 +563,30 @@ body #hugeit-contact-wrapper_4 textarea {
     left: 0px;
     opacity: 0;
     cursor: pointer;
-}
-/*###########CAPTCHA#############*/
+  }
 
-#hugeit-contact-wrapper_4 .captcha-block div {
+  /*###########CAPTCHA#############*/
+
+  #hugeit-contact-wrapper_4 .captcha-block div {
     margin-right: -1px;
     float: right;
-}
-/*############BUTTONS#############*/
+  }
 
-#hugeit-contact-wrapper_4 .buttons-block {
+  /*############BUTTONS#############*/
+
+  #hugeit-contact-wrapper_4 .buttons-block {
     text-align: left;
-}
-#hugeit-contact-wrapper_4 .buttons-block button {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button {
     height: auto;
     padding: 6px 12px 6px 12px;
     cursor: pointer;
     text-transform: none;
     font-size: 14px;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.submit {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.submit {
     color: #FFFFFF !important;
     background-color: rgb(241, 201, 106) !important;
     border: 1px solid rgb(241, 201, 106) !important;
@@ -505,22 +595,26 @@ body #hugeit-contact-wrapper_4 textarea {
     transition: all 0.5s ease !important;
     margin: 0px 0px 5px 0px !important;
     background-image: none !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.submit:hover {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.submit:hover {
     color: #F0F0F0 !important;
     background: #137ADB !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.submit i {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.submit i {
     color: #FFFFFF !important;
     font-size: 14px !important;
     vertical-align: baseline !important;
     -webkit-transition: all 0.5s ease !important;
     transition: all 0.5s ease !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.submit:hover i {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.submit:hover i {
     color: #FFFFFF !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.reset {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.reset {
     color: #FFFFFF !important;
     background-color: #328FE6 !important;
     border: 1px solid #328FE6 !important;
@@ -528,615 +622,712 @@ body #hugeit-contact-wrapper_4 textarea {
     -webkit-transition: all 0.5s ease !important;
     transition: all 0.5s ease !important;
     background-image: none !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.reset:hover {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.reset:hover {
     color: #FFFFFF !important;
     background: #137ADB !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.reset i {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.reset i {
     color: #FFFFFF !important;
     font-size: 14px !important;
     vertical-align: baseline !important;
     -webkit-transition: all 0.5s ease !important;
     transition: all 0.5s ease !important;
-}
-#hugeit-contact-wrapper_4 .buttons-block button.reset:hover i {
+  }
+
+  #hugeit-contact-wrapper_4 .buttons-block button.reset:hover i {
     color: #F9F9F9 !important;
-}
+  }
 </style>
+
+<style about="Styles for tags prefixed with 'msk' which stands for mask - the jqwidgets mask placed on top of the
+        Huge IT form to handle bookings and charter/tour requests">
+
+  /* Override jqWidgets default font and size */
+  .jqx-widget { font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold }
+
+  #msk_container {
+    width: 207px; min-height: 350px; border: 1px solid lightgray;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold;
+  }
+
+  #msk_title { font-size: 19px }
+
+  #msk_radiogroup > div { float: left; width: 50% }
+  #msk_radiogroup::after { content: ""; clear: both; display: block }
+
+</style>
+
 <script>
-jQuery(document).ready(function () {
+  jQuery(document).ready(function () {
     /*FRONT END PREVIEW FROM ADMIN JS*/
     jQuery(".hugeit-contact-column-block input[type='file']").on('change', function () {
-        var value = jQuery(this).val().substr(jQuery(this).val().indexOf('fakepath') + 9);
-        jQuery(this).parent().find('input[type="text"]').val(value);
+      var value = jQuery(this).val().substr(jQuery(this).val().indexOf('fakepath') + 9);
+      jQuery(this).parent().find('input[type="text"]').val(value);
     });
 
     jQuery(".hugeit-contact-column-block select").on('change', function () {
-        jQuery(this).prev('.textholder').val(jQuery(this).val());
+      jQuery(this).prev('.textholder').val(jQuery(this).val());
     });
-});
+  });
 </script>
-<form action="" method="post" enctype="multipart/form-data" verified="0" id="huge_it_contact_form_4" class="hugeit_form">
-    <div id="hugeit-contact-wrapper_4" class="medium-radio medium-checkbox">
-        <div>
-            <div class="hugeit-contact-column-block hugeit-contact-block-left" id="hugeit-contact-block-left">
-                <div class="hugeit-field-block hugeit-radio-field" rel="huge-contact-field-38">
-                    <label class="formsAboveAlign" for="hugeit_preview_textbox_38" style="font-weight: bold; font-size: 19px; color: #023158; margin-top: -15px; margin-bottom: 6px;">BOOKING REQUEST</label>
-                    <div class="field-block radio-field-block formsAboveAlign">
-                        <ul id="hugeit_preview_textbox_38" class="hugeit-radiobox-list">
-                            <li style="width:50%;">
-                                <label class="secondary-label">
-                                    <div class="radio-block big">
-                                        <input checked="checked" value="Round Trip" name="huge_it_4_38" type="radio">
-                                        <i class="hugeicons-dot-circle-o active"></i>
-                                        <i class="hugeicons-circle-o passive"></i>
-                                    </div>
-                                    <span class="sublable">Round Trip</span>
-                                </label>
-                            </li>
-                            <li style="width:50%;">
-                                <label class="secondary-label">
-                                    <div class="radio-block big">
-                                        <input value="One Way" name="huge_it_4_38" type="radio">
-                                        <i class="hugeicons-dot-circle-o active"></i>
-                                        <i class="hugeicons-circle-o passive"></i>
-                                    </div>
-                                    <span class="sublable">One Way</span>
-                                </label>
-                            </li>
-                            <li style="width:50%;">
-                                <label class="secondary-label">
-                                    <div class="radio-block big">
-                                        <input value="Charter" name="huge_it_4_38" type="radio">
-                                        <i class="hugeicons-dot-circle-o active"></i>
-                                        <i class="hugeicons-circle-o passive"></i>
-                                    </div>
-                                    <span class="sublable">Charter</span>
-                                </label>
-                            </li>
-                            <li style="width:50%;">
-                                <label class="secondary-label">
-                                    <div class="radio-block big">
-                                        <input value="Tour" name="huge_it_4_38" type="radio">
-                                        <i class="hugeicons-dot-circle-o active"></i>
-                                        <i class="hugeicons-circle-o passive"></i>
-                                    </div>
-                                    <span class="sublable">Tour</span>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <table border="0" cellpadding="1" cellspacing="0" style="width: 200px">
-                    <tr>
-                        <td>
-                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_3">
-                                <label class="formsAboveAlign" for="hugeit_preview_textbox_3">FROM<em class="required-star">*</em></label>
-                                <div class="field-block selectbox-block formsAboveAlign">
-                                    <input disabled="disabled" class="textholder" value="Select City" type="text">
-                                    <select id="hugeit_preview_textbox_3" class="required" name="huge_it_4_3">
-                                        <option>Excursion Inlet</option>
-                                        <option>Glacier Bay</option>
-                                        <option>Gustavus </option>
-                                        <option>Icy Strait</option>
-                                        <option>Haines </option>
-                                        <option>Hoonah</option>
-                                        <option>Juneau</option>
-                                        <option>Skagway</option>
-                                        <option>Carter/Other</option>
-                                        <option selected="selected" disabled="disabled">Select City</option>
-                                    </select>
-                                    <span class="hugeit-error-message"></span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_34">
-                                <label class="formsAboveAlign" for="hugeit_preview_textbox_34">TO<em class="required-star">*</em></label>
-                                <div class="field-block selectbox-block formsAboveAlign">
-                                    <input disabled="disabled" class="textholder" value="Select City" type="text">
-                                    <select id="hugeit_preview_textbox_34" class="required" name="huge_it_4_34">
-                                        <option>Excursion Inlet</option>
-                                        <option>Glacier Bay</option>
-                                        <option>Gustavus</option>
-                                        <option>Haines </option>
-                                        <option>Hoonah</option>
-                                        <option>Icy Strait </option>
-                                        <option>Juneau</option>
-                                        <option>Skagway</option>
-                                        <option>Charter/OTHER</option>
-                                        <option selected="selected" disabled="disabled">Select City</option>
-                                    </select>
-                                    <i class="hugeicons-chevron-down"></i>
-                                    <span class="hugeit-error-message"></span>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_8">
-                                <label class="formsAboveAlign" for="hugeit_preview_textbox_8">DEPARTING<em class="required-star">*</em> </label>
-                                <div class="field-block input-text-block formsAboveAlign">
-                                    <input id="hugeit_preview_textbox_8" name="huge_it_4_8" placeholder="DD/MM/YY" style="width: 99px" class="required" type="date">
-                                    <span class="hugeit-error-message"></span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <label class="formsAboveAlign" for="hugeit_preview_textbox_39">RETURNING </label>
-                            <div class="field-block input-text-block formsAboveAlign">
-                                <input id="hugeit_preview_textbox_39" name="huge_it_4_39" placeholder="DD/MM/YY" style="width: 101px" class="" type="date">
-                                <span class="hugeit-error-message"></span>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_6">
-                                <label class="formsAboveAlign" for="hugeit_preview_textbox_6">FIRST NAME<em class="required-star">*</em> </label>
-                                <div class="field-block input-text-block formsAboveAlign">
-                                    <input id="hugeit_preview_textbox_6" name="huge_it_4_6" placeholder="Sally" class="required" type="text">
-                                    <span class="hugeit-error-message"></span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="hugeit-field-block" rel="hugeit_preview_textbox_5">
-                                <label class="formsAboveAlign" for="hugeit_preview_textbox_5">LAST NAME </label>
-                                <div class="field-block input-text-block formsAboveAlign">
-                                    <input id="hugeit_preview_textbox_5" name="huge_it_4_5" placeholder="Jones" class="" type="text">
-                                    <span class="hugeit-error-message"></span>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr><td></td><td></td></tr>
-                </table>
-                <div class="hugeit-field-block" rel="huge-contact-field-41">
-                    <label for="hugeit_preview_textbox_41" style="display: inline; float: none">TOTAL&nbsp;PASSENGERS<em class="required-star">*</em> </label>
-                    <input id="hugeit_preview_textbox_41" name="huge_it_4_41" placeholder="" style="width: 40px; margin-left: 3px" value="1" min="1" class="required" type="number">
-                    <div class="field-block input-text-block">
 
-                        <span class="hugeit-error-message"></span>
-                    </div>
-                </div>
-
-                <div rel="huge-contact-field-7" class="hugeit-field-block">
-                    <label for="hugeit_preview_textbox_7" class="formsLeftAlign" style="display: inline; float: none">E-MAIL<em class="required-star">*</em> </label>
-                    <input type="email" class="required" placeholder="sample@domain.com" name="huge_it_4_7" style="width: 140px; height: 19px; margin-left: 3px" id="hugeit_preview_textbox_7">
-                    <div class="field-block input-text-block email-block ">
-
-                        <span class="hugeit-error-message"></span>
-                    </div>
-                </div>
-
-                <div class="hugeit-field-block" rel="huge-contact-field-1">
-                    <label class="formsLeftAlign" for="hugeit_preview_textbox_1" style="display: inline; float: none">PHONE<em class="required-star">*</em> </label>
-                    <input id="hugeit_preview_textbox_1" name="huge_it_4_1" placeholder="1 (907) 555-9999" style="width: 140px; height: 19px; margin-left: 3px" class="required" type="text">
-                    <div class="field-block input-text-block">
-
-                        <span class="hugeit-error-message"></span>
-                    </div>
-                </div>
-                <div class="hugeit-field-block" rel="huge-contact-field-9">
-                    <label class="formsAboveAlign" for="hugeit_preview_textbox_9">SPECIAL REQUESTS</label>
-                    <div class="field-block textarea-block formsAboveAlign">
-                        <textarea style="height:80px;resize:vertical;" name="huge_it_4_9" id="hugeit_preview_textbox_9" class="" placeholder="Please let us know if you have any special needs"></textarea>
-                        <span class="hugeit-error-message"></span>
-                    </div>
-                </div>
-                <div class="hugeit-field-block buttons-block" rel="huge-contact-field-10">
-                    <button type="submit" class="submit" id="hugeit_preview_button__submit_10" value="Submit">
-                        <i class="hugeicons-envelope-o"></i>														Submit Request
-                    </button>
-                </div>
-            </div>
-            <div class="hugeit-contact-column-block hugeit-contact-block-right" id="hugeit-contact-block-right">
-            </div>
-            <div class="clear"></div>
+<form action="" method="post" enctype="multipart/form-data" verified="0" id="huge_it_contact_form_4"
+      class="hugeit_form">
+  <div id="hugeit-contact-wrapper_4" class="medium-radio medium-checkbox" style="display: none;">
+    <div>
+      <div class="hugeit-contact-column-block hugeit-contact-block-left" id="hugeit-contact-block-left">
+        <div class="hugeit-field-block hugeit-radio-field" rel="huge-contact-field-38">
+          <label class="formsAboveAlign" for="hugeit_preview_textbox_38"
+                 style="font-weight: bold; font-size: 19px; color: #023158; margin-top: -15px; margin-bottom: 6px;">BOOKING
+            REQUEST</label>
+          <div class="field-block radio-field-block formsAboveAlign">
+            <ul id="hugeit_preview_textbox_38" class="hugeit-radiobox-list">
+              <li style="width:50%;">
+                <label class="secondary-label">
+                  <div class="radio-block big">
+                    <input checked="checked" value="Round Trip" name="huge_it_4_38" type="radio">
+                    <i class="hugeicons-dot-circle-o active"></i>
+                    <i class="hugeicons-circle-o passive"></i>
+                  </div>
+                  <span class="sublable">Round Trip</span>
+                </label>
+              </li>
+              <li style="width:50%;">
+                <label class="secondary-label">
+                  <div class="radio-block big">
+                    <input value="One Way" name="huge_it_4_38" type="radio">
+                    <i class="hugeicons-dot-circle-o active"></i>
+                    <i class="hugeicons-circle-o passive"></i>
+                  </div>
+                  <span class="sublable">One Way</span>
+                </label>
+              </li>
+              <li style="width:50%;">
+                <label class="secondary-label">
+                  <div class="radio-block big">
+                    <input value="Charter" name="huge_it_4_38" type="radio">
+                    <i class="hugeicons-dot-circle-o active"></i>
+                    <i class="hugeicons-circle-o passive"></i>
+                  </div>
+                  <span class="sublable">Charter</span>
+                </label>
+              </li>
+              <li style="width:50%;">
+                <label class="secondary-label">
+                  <div class="radio-block big">
+                    <input value="Tour" name="huge_it_4_38" type="radio">
+                    <i class="hugeicons-dot-circle-o active"></i>
+                    <i class="hugeicons-circle-o passive"></i>
+                  </div>
+                  <span class="sublable">Tour</span>
+                </label>
+              </li>
+            </ul>
+          </div>
         </div>
+        <table border="0" cellpadding="1" cellspacing="0" style="width: 200px">
+          <tr>
+            <td>
+              <div class="hugeit-field-block" rel="hugeit_preview_textbox_3">
+                <label class="formsAboveAlign" for="hugeit_preview_textbox_3">FROM<em
+                    class="required-star">*</em></label>
+                <div class="field-block selectbox-block formsAboveAlign">
+                  <input disabled="disabled" class="textholder" value="Select City" type="text">
+                  <select id="hugeit_preview_textbox_3" class="required" name="huge_it_4_3">
+                    <option>Excursion Inlet</option>
+                    <option>Glacier Bay</option>
+                    <option>Gustavus</option>
+                    <option>Icy Strait</option>
+                    <option>Haines</option>
+                    <option>Hoonah</option>
+                    <option>Juneau</option>
+                    <option>Skagway</option>
+                    <option>Carter/Other</option>
+                    <option selected="selected" disabled="disabled">Select City</option>
+                  </select>
+                  <span class="hugeit-error-message"></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="hugeit-field-block" rel="hugeit_preview_textbox_34">
+                <label class="formsAboveAlign" for="hugeit_preview_textbox_34">TO<em
+                    class="required-star">*</em></label>
+                <div class="field-block selectbox-block formsAboveAlign">
+                  <input disabled="disabled" class="textholder" value="Select City" type="text">
+                  <select id="hugeit_preview_textbox_34" class="required" name="huge_it_4_34">
+                    <option>Excursion Inlet</option>
+                    <option>Glacier Bay</option>
+                    <option>Gustavus</option>
+                    <option>Haines</option>
+                    <option>Hoonah</option>
+                    <option>Icy Strait</option>
+                    <option>Juneau</option>
+                    <option>Skagway</option>
+                    <option>Charter/OTHER</option>
+                    <option selected="selected" disabled="disabled">Select City</option>
+                  </select>
+                  <i class="hugeicons-chevron-down"></i>
+                  <span class="hugeit-error-message"></span>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="hugeit-field-block" rel="hugeit_preview_textbox_8">
+                <label class="formsAboveAlign" for="hugeit_preview_textbox_8">DEPARTING<em class="required-star">*</em>
+                </label>
+                <div class="field-block input-text-block formsAboveAlign">
+                  <input id="hugeit_preview_textbox_8" name="huge_it_4_8" placeholder="DD/MM/YY" style="width: 99px"
+                         class="required" type="date">
+                  <span class="hugeit-error-message"></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <label class="formsAboveAlign" for="hugeit_preview_textbox_39">RETURNING </label>
+              <div class="field-block input-text-block formsAboveAlign">
+                <input id="hugeit_preview_textbox_39" name="huge_it_4_39" placeholder="DD/MM/YY" style="width: 101px"
+                       class="" type="date">
+                <span class="hugeit-error-message"></span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="hugeit-field-block" rel="hugeit_preview_textbox_6">
+                <label class="formsAboveAlign" for="hugeit_preview_textbox_6">FIRST NAME<em class="required-star">*</em>
+                </label>
+                <div class="field-block input-text-block formsAboveAlign">
+                  <input id="hugeit_preview_textbox_6" name="huge_it_4_6" placeholder="Sally" class="required"
+                         type="text">
+                  <span class="hugeit-error-message"></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="hugeit-field-block" rel="hugeit_preview_textbox_5">
+                <label class="formsAboveAlign" for="hugeit_preview_textbox_5">LAST NAME </label>
+                <div class="field-block input-text-block formsAboveAlign">
+                  <input id="hugeit_preview_textbox_5" name="huge_it_4_5" placeholder="Jones" class="" type="text">
+                  <span class="hugeit-error-message"></span>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="hugeit-field-block" rel="huge-contact-field-41">
+          <label for="hugeit_preview_textbox_41" style="display: inline; float: none">TOTAL&nbsp;PASSENGERS<em
+              class="required-star">*</em> </label>
+          <input id="hugeit_preview_textbox_41" name="huge_it_4_41" placeholder="" style="width: 40px; margin-left: 3px"
+                 value="1" min="1" class="required" type="number">
+          <div class="field-block input-text-block">
+
+            <span class="hugeit-error-message"></span>
+          </div>
+        </div>
+
+        <div rel="huge-contact-field-7" class="hugeit-field-block">
+          <label for="hugeit_preview_textbox_7" class="formsLeftAlign" style="display: inline; float: none">E-MAIL<em
+              class="required-star">*</em> </label>
+          <input type="email" class="required" placeholder="sample@domain.com" name="huge_it_4_7"
+                 style="width: 140px; height: 19px; margin-left: 3px" id="hugeit_preview_textbox_7">
+          <div class="field-block input-text-block email-block ">
+
+            <span class="hugeit-error-message"></span>
+          </div>
+        </div>
+
+        <div class="hugeit-field-block" rel="huge-contact-field-1">
+          <label class="formsLeftAlign" for="hugeit_preview_textbox_1" style="display: inline; float: none">PHONE<em
+              class="required-star">*</em> </label>
+          <input id="hugeit_preview_textbox_1" name="huge_it_4_1" placeholder="1 (907) 555-9999"
+                 style="width: 140px; height: 19px; margin-left: 3px" class="required" type="text">
+          <div class="field-block input-text-block">
+
+            <span class="hugeit-error-message"></span>
+          </div>
+        </div>
+        <div class="hugeit-field-block" rel="huge-contact-field-9">
+          <label class="formsAboveAlign" for="hugeit_preview_textbox_9">SPECIAL REQUESTS</label>
+          <div class="field-block textarea-block formsAboveAlign">
+            <textarea style="height:80px;resize:vertical;" name="huge_it_4_9" id="hugeit_preview_textbox_9" class=""
+                      placeholder="Please let us know if you have any special needs"></textarea>
+            <span class="hugeit-error-message"></span>
+          </div>
+        </div>
+        <div class="hugeit-field-block buttons-block" rel="huge-contact-field-10">
+          <button type="submit" class="submit" id="hugeit_preview_button__submit_10" value="Submit">
+            <i class="hugeicons-envelope-o"></i> Submit Request
+          </button>
+        </div>
+      </div>
+      <div class="hugeit-contact-column-block hugeit-contact-block-right" id="hugeit-contact-block-right">
+      </div>
+      <div class="clear"></div>
     </div>
-    <input value="hc_email_r" name="hc_email_r" type="hidden">
-    <input value="ok" name="submitok" type="hidden">
+  </div>
+  <input value="hc_email_r" name="hc_email_r" type="hidden">
+  <input value="ok" name="submitok" type="hidden">
+
+
+  <div id="msk_container">
+    <div id="msk_title">BOOKING REQUEST</div>
+    <div id="msk_radiogroup">
+      <div>
+        <div id="msk_radio_round_trip">Round Trip</div>
+        <div id="msk_radio_charter">Charter</div>
+      </div>
+      <div>
+        <div id="msk_radio_one_way">One Way</div>
+        <div id="msk_radio_tour">Tour</div>
+      </div>
+    </div>
+    <div id="msk_panel_scheduled">
+
+    </div>
+    <div id="msk_panel_chartered">
+
+    </div>
+  </div>
+
+
 </form>
+
+<script language="javascript">
+
+  var msk_radio_round_trip = $("#msk_radio_round_trip");
+  var msk_radio_one_way = $("#msk_radio_one_way");
+  var msk_radio_charter = $("#msk_radio_charter");
+  var msk_radio_tour = $("#msk_radio_tour");
+  var msk_scheduled_panel = $("#msk_panel_scheduled");
+  var msk_chartered_panel = $("#msk_panel_chartered");
+
+  msk_radio_round_trip.jqxRadioButton({ width: 90, height: 16, checked: true });
+  msk_radio_one_way.jqxRadioButton({ width: 90, height: 16 });
+  msk_radio_charter.jqxRadioButton({ width: 90, height: 16 });
+  msk_radio_tour.jqxRadioButton({ width: 90, height: 16 });
+  msk_scheduled_panel.jqxPanel({ width: "100%", height: 100 });
+  msk_chartered_panel.jqxPanel({ width: "100%", height: 100 });
+  msk_chartered_panel.hide();
+
+  function switch_panels (panel_name) {
+    msk_scheduled_panel.hide();
+    msk_chartered_panel.hide();
+    $("#" + panel_name).show();
+  }
+
+  msk_radio_round_trip.on('checked', function(event) { switch_panels("msk_panel_scheduled"); });
+  msk_radio_one_way.on('checked', function(event) { switch_panels("msk_panel_scheduled"); });
+  msk_radio_charter.on('checked', function(event) { switch_panels("msk_panel_chartered"); });
+  msk_radio_tour.on('checked', function(event) { switch_panels("msk_panel_chartered"); });
+
+</script>
+
 <script>
-jQuery(document).ready(function(){
-	var requiredError='Please Fill This Field';
-    var captchaError='Please tick on Captcha box';
-    var emailError='Incorrect Email';
-    var uploadTypeError='Unacceptable file type';
-    var uploadSizeError='Exceeds limits on uploaded file';
+  jQuery(document).ready(function () {
+    var requiredError = 'Please Fill This Field';
+    var captchaError = 'Please tick on Captcha box';
+    var emailError = 'Incorrect Email';
+    var uploadTypeError = 'Unacceptable file type';
+    var uploadSizeError = 'Exceeds limits on uploaded file';
+
     function isValidEmailAddress(emailAddress) {
-			var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
-			return pattern.test(emailAddress);
-	};
-	function Validate(oForm,_validFileExtensions) {
-		var arrInputs = document.getElementsByTagName("input");
-		for (var i = 0; i < arrInputs.length; i++) {
-		    var oInput = arrInputs[i];
-		    if (oInput.type == "file") {
-		        var sFileName = oInput.value;
-		        if (sFileName.length > 0) {
-		            var blnValid = false;
-		            for (var j = 0; j < _validFileExtensions.length; j++) {
-		                var sCurExtension = _validFileExtensions[j];
-		                if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
-		                    blnValid = true;
-		                    break;
-		                }
-		            }
-		            if (!blnValid) {
-		                return false;
-		            }
-		        }
-		    }
-		}
-		return true;
-	}
-	jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').not('.buttons-block').not('.captcha-block').each(function(){
-        if(jQuery(this).find('div.input-text-block >input').hasClass('required')){
-        	var text_emailField=jQuery(this).find('input');
-        	text_emailField.on('blur',function(){
-        		if(jQuery(this).val().trim()==''){
-        			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
-        			jQuery(this).parent().parent().find('label').addClass('error');
-        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-        		}else{
-        			jQuery(this).parent().find('.hugeit-error-message').text('');
-        			jQuery(this).parent().parent().find('label').removeClass('error');
-        			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
-        		}
-        	})
+      var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+      return pattern.test(emailAddress);
+    };
+    function Validate(oForm, _validFileExtensions) {
+      var arrInputs = document.getElementsByTagName("input");
+      for (var i = 0; i < arrInputs.length; i++) {
+        var oInput = arrInputs[i];
+        if (oInput.type == "file") {
+          var sFileName = oInput.value;
+          if (sFileName.length > 0) {
+            var blnValid = false;
+            for (var j = 0; j < _validFileExtensions.length; j++) {
+              var sCurExtension = _validFileExtensions[j];
+              if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+                blnValid = true;
+                break;
+              }
+            }
+            if (!blnValid) {
+              return false;
+            }
+          }
         }
-        if(jQuery(this).find('div.textarea-block >textarea').hasClass('required')){
-        	var textarea_field=jQuery(this).find('textarea');
-        	textarea_field.on('blur',function(){
-        		if(jQuery(this).val().trim()==''){
-        			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
-        			jQuery(this).parent().parent().find('label').addClass('error');
-        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-        		}else{
-        			jQuery(this).parent().find('.hugeit-error-message').text('');
-        			jQuery(this).parent().parent().find('label').removeClass('error');
-        			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
-        		}
-        	})
-        }
-        if(jQuery(this).find('div.email-block >input').attr('type')=='email'){
-        	var emailField=jQuery(this).find('input');
-        	emailField.on('blur',function(){
-        		if(jQuery(this).val()!=''){
-        			if(!isValidEmailAddress(jQuery(this).val())){
-	        			jQuery(this).parent().find('.hugeit-error-message').text(emailError);
-	        			jQuery(this).parent().parent().find('label').addClass('error');
-	        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-	        		}else{
-	        			jQuery(this).parent().find('.hugeit-error-message').text('');
-	        			jQuery(this).parent().parent().find('label').removeClass('error');
-	        			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
-	        		}
-        		}
-        	})
-        }
-        if(jQuery(this).find('div.file-block >input[type="file"]').attr('type')=='file'){
-        	var fileInput=jQuery(this).find('input[type="file"]');
-        	var maxSize = fileInput.parent().find('input[name="MAX_FILE_SIZE"]').val();
-        	fileInput.on('blur',function(){
-        		var typeStr = jQuery(this).parent().find('input[name="fileTypeArr"]').val().trim();
-        		typeStr = typeStr.replace(/\s+/g, '');
-				var _validFileExtensions = typeStr.split(",");
-				if(fileInput.val()!=''){
-					var validREsult=Validate(jQuery('#huge_it_contact_form_4'),_validFileExtensions);
-					if(!validREsult){
-						jQuery(this).parent().find('.hugeit-error-message').text(uploadTypeError);
-						jQuery(this).parent().parent().find('label').addClass('error');
-						jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-						jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
-					}else{
-						if(fileInput.val()!=''){
-			        		var fileSize = fileInput.get(0).files[0].size;
-			    		}
-			    		if(jQuery(this).hasClass('required')&&jQuery(this).val().trim()==''){
-			    			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
-			    			jQuery(this).parent().parent().find('label').addClass('error');
-			    			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-			    		}else if(fileSize>maxSize){
-			    			jQuery(this).parent().find('.hugeit-error-message').text(uploadSizeError);
-			    			jQuery(this).parent().parent().find('label').addClass('error');
-			    			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-			    		}else{
-			    			jQuery(this).parent().find('.hugeit-error-message').text('');
-			    			jQuery(this).parent().parent().find('label').removeClass('error');
-			    			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
-			    		}
-					}
-				}else{
-					if(jQuery(this).hasClass('required')&&jQuery(this).val().trim()==''){
-		    			jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
-		    			jQuery(this).parent().parent().find('label').addClass('error');
-		    			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-		    		}else{
-		    			jQuery(this).parent().find('.hugeit-error-message').text('');
-		    			jQuery(this).parent().parent().find('label').removeClass('error');
-		    			jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
-		    		}
-				}
-        	})
-        }
+      }
+      return true;
+    }
+
+    jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').not('.buttons-block').not('.captcha-block').each(function () {
+      if (jQuery(this).find('div.input-text-block >input').hasClass('required')) {
+        var text_emailField = jQuery(this).find('input');
+        text_emailField.on('blur', function () {
+          if (jQuery(this).val().trim() == '') {
+            jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+            jQuery(this).parent().parent().find('label').addClass('error');
+            jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+          } else {
+            jQuery(this).parent().find('.hugeit-error-message').text('');
+            jQuery(this).parent().parent().find('label').removeClass('error');
+            jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+          }
+        })
+      }
+      if (jQuery(this).find('div.textarea-block >textarea').hasClass('required')) {
+        var textarea_field = jQuery(this).find('textarea');
+        textarea_field.on('blur', function () {
+          if (jQuery(this).val().trim() == '') {
+            jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+            jQuery(this).parent().parent().find('label').addClass('error');
+            jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+          } else {
+            jQuery(this).parent().find('.hugeit-error-message').text('');
+            jQuery(this).parent().parent().find('label').removeClass('error');
+            jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+          }
+        })
+      }
+      if (jQuery(this).find('div.email-block >input').attr('type') == 'email') {
+        var emailField = jQuery(this).find('input');
+        emailField.on('blur', function () {
+          if (jQuery(this).val() != '') {
+            if (!isValidEmailAddress(jQuery(this).val())) {
+              jQuery(this).parent().find('.hugeit-error-message').text(emailError);
+              jQuery(this).parent().parent().find('label').addClass('error');
+              jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+            } else {
+              jQuery(this).parent().find('.hugeit-error-message').text('');
+              jQuery(this).parent().parent().find('label').removeClass('error');
+              jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+            }
+          }
+        })
+      }
+      if (jQuery(this).find('div.file-block >input[type="file"]').attr('type') == 'file') {
+        var fileInput = jQuery(this).find('input[type="file"]');
+        var maxSize = fileInput.parent().find('input[name="MAX_FILE_SIZE"]').val();
+        fileInput.on('blur', function () {
+          var typeStr = jQuery(this).parent().find('input[name="fileTypeArr"]').val().trim();
+          typeStr = typeStr.replace(/\s+/g, '');
+          var _validFileExtensions = typeStr.split(",");
+          if (fileInput.val() != '') {
+            var validREsult = Validate(jQuery('#huge_it_contact_form_4'), _validFileExtensions);
+            if (!validREsult) {
+              jQuery(this).parent().find('.hugeit-error-message').text(uploadTypeError);
+              jQuery(this).parent().parent().find('label').addClass('error');
+              jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+              jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+            } else {
+              if (fileInput.val() != '') {
+                var fileSize = fileInput.get(0).files[0].size;
+              }
+              if (jQuery(this).hasClass('required') && jQuery(this).val().trim() == '') {
+                jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+                jQuery(this).parent().parent().find('label').addClass('error');
+                jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+              } else if (fileSize > maxSize) {
+                jQuery(this).parent().find('.hugeit-error-message').text(uploadSizeError);
+                jQuery(this).parent().parent().find('label').addClass('error');
+                jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+              } else {
+                jQuery(this).parent().find('.hugeit-error-message').text('');
+                jQuery(this).parent().parent().find('label').removeClass('error');
+                jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+              }
+            }
+          } else {
+            if (jQuery(this).hasClass('required') && jQuery(this).val().trim() == '') {
+              jQuery(this).parent().find('.hugeit-error-message').text(requiredError);
+              jQuery(this).parent().parent().find('label').addClass('error');
+              jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+            } else {
+              jQuery(this).parent().find('.hugeit-error-message').text('');
+              jQuery(this).parent().parent().find('label').removeClass('error');
+              jQuery(this).parent().parent().find('label>em.required-star').removeClass('error');
+            }
+          }
+        })
+      }
     });
-	var captchaExists='no';
-jQuery( "#huge_it_contact_form_4" ).on( "submit", function(e){
-	    e.preventDefault();
-	    var errorsAllow='yes';
-		var nVer = navigator.appVersion;
-		var nAgt = navigator.userAgent;
-		var browserName  = navigator.appName;
-		var fullVersion  = ''+parseFloat(navigator.appVersion);
-		var majorVersion = parseInt(navigator.appVersion,10);
-		var nameOffset,verOffset,ix;
+    var captchaExists = 'no';
+    jQuery("#huge_it_contact_form_4").on("submit", function (e) {
+      e.preventDefault();
+      var errorsAllow = 'yes';
+      var nVer = navigator.appVersion;
+      var nAgt = navigator.userAgent;
+      var browserName = navigator.appName;
+      var fullVersion = '' + parseFloat(navigator.appVersion);
+      var majorVersion = parseInt(navigator.appVersion, 10);
+      var nameOffset, verOffset, ix;
 
-	// In Opera 15+, the true version is after "OPR/"
-	if ((verOffset=nAgt.indexOf("OPR/"))!=-1) {
-		browserName = "Opera";
-		fullVersion = nAgt.substring(verOffset+4);
-	}
-	// In older Opera, the true version is after "Opera" or after "Version"
-	else if ((verOffset=nAgt.indexOf("Opera"))!=-1) {
-		browserName = "Opera";
-		fullVersion = nAgt.substring(verOffset+6);
-		if ((verOffset=nAgt.indexOf("Version"))!=-1)
-		fullVersion = nAgt.substring(verOffset+8);
-	}
-	// In MSIE, the true version is after "MSIE" in userAgent
-	else if ((verOffset=nAgt.indexOf("MSIE"))!=-1) {
-		browserName = "MSIE";
-		fullVersion = nAgt.substring(verOffset+5);
-	}
-	// In Chrome, the true version is after "Chrome"
-	else if ((verOffset=nAgt.indexOf("Chrome"))!=-1) {
-		browserName = "Chrome";
-		fullVersion = nAgt.substring(verOffset+7);
-	}
-	// In Safari, the true version is after "Safari" or after "Version"
-	else if ((verOffset=nAgt.indexOf("Safari"))!=-1) {
-		browserName = "Safari";
-		fullVersion = nAgt.substring(verOffset+7);
-		if ((verOffset=nAgt.indexOf("Version"))!=-1)
-		fullVersion = nAgt.substring(verOffset+8);
-	}
-	// In Firefox, the true version is after "Firefox"
-	else if ((verOffset=nAgt.indexOf("Firefox"))!=-1) {
-		browserName = "Firefox";
-		fullVersion = nAgt.substring(verOffset+8);
-	}
-	// In most other browsers, "name/version" is at the end of userAgent
-	else if ( (nameOffset=nAgt.lastIndexOf(' ')+1) <
-		        (verOffset=nAgt.lastIndexOf('/')) )
-	{
-		browserName = nAgt.substring(nameOffset,verOffset);
-		fullVersion = nAgt.substring(verOffset+1);
-		if (browserName.toLowerCase()==browserName.toUpperCase()) {
-		browserName = navigator.appName;
-		}
-	}
-	// trim the fullVersion string at semicolon/space if present
-	if ((ix=fullVersion.indexOf(";"))!=-1)
-		fullVersion=fullVersion.substring(0,ix);
-	if ((ix=fullVersion.indexOf(" "))!=-1)
-		fullVersion=fullVersion.substring(0,ix);
+      // In Opera 15+, the true version is after "OPR/"
+      if ((verOffset = nAgt.indexOf("OPR/")) != -1) {
+        browserName = "Opera";
+        fullVersion = nAgt.substring(verOffset + 4);
+      }
+      // In older Opera, the true version is after "Opera" or after "Version"
+      else if ((verOffset = nAgt.indexOf("Opera")) != -1) {
+        browserName = "Opera";
+        fullVersion = nAgt.substring(verOffset + 6);
+        if ((verOffset = nAgt.indexOf("Version")) != -1)
+          fullVersion = nAgt.substring(verOffset + 8);
+      }
+      // In MSIE, the true version is after "MSIE" in userAgent
+      else if ((verOffset = nAgt.indexOf("MSIE")) != -1) {
+        browserName = "MSIE";
+        fullVersion = nAgt.substring(verOffset + 5);
+      }
+      // In Chrome, the true version is after "Chrome"
+      else if ((verOffset = nAgt.indexOf("Chrome")) != -1) {
+        browserName = "Chrome";
+        fullVersion = nAgt.substring(verOffset + 7);
+      }
+      // In Safari, the true version is after "Safari" or after "Version"
+      else if ((verOffset = nAgt.indexOf("Safari")) != -1) {
+        browserName = "Safari";
+        fullVersion = nAgt.substring(verOffset + 7);
+        if ((verOffset = nAgt.indexOf("Version")) != -1)
+          fullVersion = nAgt.substring(verOffset + 8);
+      }
+      // In Firefox, the true version is after "Firefox"
+      else if ((verOffset = nAgt.indexOf("Firefox")) != -1) {
+        browserName = "Firefox";
+        fullVersion = nAgt.substring(verOffset + 8);
+      }
+      // In most other browsers, "name/version" is at the end of userAgent
+      else if ((nameOffset = nAgt.lastIndexOf(' ') + 1) <
+          (verOffset = nAgt.lastIndexOf('/'))) {
+        browserName = nAgt.substring(nameOffset, verOffset);
+        fullVersion = nAgt.substring(verOffset + 1);
+        if (browserName.toLowerCase() == browserName.toUpperCase()) {
+          browserName = navigator.appName;
+        }
+      }
+      // trim the fullVersion string at semicolon/space if present
+      if ((ix = fullVersion.indexOf(";")) != -1)
+        fullVersion = fullVersion.substring(0, ix);
+      if ((ix = fullVersion.indexOf(" ")) != -1)
+        fullVersion = fullVersion.substring(0, ix);
 
-	majorVersion = parseInt(''+fullVersion,10);
-	if (isNaN(majorVersion)) {
-			fullVersion  = ''+parseFloat(navigator.appVersion);
-			majorVersion = parseInt(navigator.appVersion,10);
-	}
+      majorVersion = parseInt('' + fullVersion, 10);
+      if (isNaN(majorVersion)) {
+        fullVersion = '' + parseFloat(navigator.appVersion);
+        majorVersion = parseInt(navigator.appVersion, 10);
+      }
 ////
-    jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').not('.buttons-block').each(function(){
-	        if(jQuery(this).find('div.input-text-block >input').hasClass('required')){
-	        	var text_emailField=jQuery(this).find('input');
-	        		if(text_emailField.val().trim()==''){
-	        			text_emailField.parent().find('.hugeit-error-message').text(requiredError);
-	        			text_emailField.parent().parent().find('label').addClass('error');
-	        			text_emailField.parent().parent().find('label>em.required-star').addClass('error');
-	        			errorsAllow='no';
-	        		}else{
-	        			text_emailField.parent().find('.hugeit-error-message').text('');
-	        			text_emailField.parent().parent().find('label').removeClass('error');
-	        		}
-	        }
-	        if(jQuery(this).find('div.textarea-block >textarea').hasClass('required')){
-	        	var textarea_field=jQuery(this).find('textarea');
-	        		if(textarea_field.val().trim()==''){
-	        			textarea_field.parent().find('.hugeit-error-message').text(requiredError);
-	        			textarea_field.parent().parent().find('label').addClass('error');
-	        			textarea_field.parent().parent().find('label>em.required-star').addClass('error');
-	        			errorsAllow='no';
-	        		}else{
-	        			textarea_field.parent().find('.hugeit-error-message').text('');
-	        			textarea_field.parent().parent().find('label').removeClass('error');
-	        		}
-	        }
-	        if(jQuery(this).find('div.email-block >input').attr('type')=='email'){
-	        	var emailField=jQuery(this).find('input');
-	        	emailField.on('blur',function(){
-	        		if(jQuery(this).val()!=''){
-	        			if(!isValidEmailAddress(jQuery(this).val())){
-		        			jQuery(this).parent().find('.hugeit-error-message').text(emailError);
-		        			jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
-		        			errorsAllow='no';
-		        		}else{
-		        			jQuery(this).parent().find('.hugeit-error-message').text('');
-		        		}
-	        		}
-	        	})
-	        }
-	        if(jQuery(this).find('div.selectbox-block >select').hasClass('required')){
-	        	var selectField=jQuery(this).find('div.selectbox-block >select');
-	        	if(selectField.val()==null){
-        			selectField.parent().find('.hugeit-error-message').text(requiredError);
-	    			selectField.parent().parent().find('label').addClass('error');
-	    			selectField.parent().parent().find('label>em.required-star').addClass('error');
-	    			errorsAllow='no';
-        		}else{
-        			selectField.parent().find('.hugeit-error-message').text('');
-        			selectField.parent().parent().find('label').removeClass('error');
-        		}
-	        }
-	        if(jQuery(this).find('div.file-block >input[type="file"]').attr('type')=='file'){
-	        	var fileInput=jQuery(this).find('input[type="file"]');
-	        	var maxSize = fileInput.parent().find('input[name="MAX_FILE_SIZE"]').val();
-	        		var typeStr = fileInput.parent().find('input[name="fileTypeArr"]').val().trim();
-	        		typeStr = typeStr.replace(/\s+/g, '');
-					var _validFileExtensions = typeStr.split(",");
-					if(fileInput.val()!=''){
-						var validREsult=Validate(jQuery('#huge_it_contact_form_4'),_validFileExtensions);
-						if(!validREsult){
-							fileInput.parent().find('.hugeit-error-message').text(uploadTypeError);
-							fileInput.parent().parent().find('label').addClass('error');
-							fileInput.parent().parent().find('label>em.required-star').addClass('error');
-							errorsAllow='no';
-						}else{
-							if(fileInput.val()!=''){
-				        		var fileSize = fileInput.get(0).files[0].size;
-				    		}
-				    		if(fileInput.hasClass('required')&&fileInput.val().trim()==''){
-				    			fileInput.parent().find('.hugeit-error-message').text(requiredError);
-				    			fileInput.parent().parent().find('label').addClass('error');
-				    			fileInput.parent().parent().find('label>em.required-star').addClass('error');
-				    			errorsAllow='no';
-				    		}else if(fileSize>maxSize){
-				    			fileInput.parent().find('.hugeit-error-message').text(uploadSizeError);
-				    			fileInput.parent().parent().find('label').addClass('error');
-				    			fileInput.parent().parent().find('label>em.required-star').addClass('error');
-				    			errorsAllow='no';
-				    		}else{
-				    			fileInput.parent().find('.hugeit-error-message').text('');
-				    			fileInput.parent().parent().find('label').removeClass('error');
-				    		}
-						}
-					}else{
-						if(fileInput.hasClass('required')&&fileInput.val().trim()==''){
-			    			fileInput.parent().find('.hugeit-error-message').text(requiredError);
-			    			fileInput.parent().parent().find('label').addClass('error');
-			    			fileInput.parent().parent().find('label>em.required-star').addClass('error');
-			    			errorsAllow='no';
-			    		}else{
-			    			fileInput.parent().find('.hugeit-error-message').text('');
-			    			fileInput.parent().parent().find('label').removeClass('error');
-			    		}
-					}
-	        }
-	        if(jQuery(this).hasClass('captcha-block')){
-	        	captchaExists='yes';
-	        }
-	    })
-	    if(captchaExists=='yes'){
-	        if(jQuery('#huge_it_contact_form_4').attr('verified')==0){
-				if(!jQuery(this).find('div.captcha-block #huge_it_captcha_4').find('span').length){
-	        		jQuery(this).find('div.captcha-block #huge_it_captcha_4').append('<span style="text-align:right;" class="hugeit-error-message">'+captchaError+'</span>')
-	        	}
-		 		errorsAllow='no';
-		 	}else{
-		 		jQuery(this).find('div.captcha-block').find('span.hugeit-error-message').text('');
-		 	}
-	    }
-	 	if(errorsAllow=='yes'){
-			var fd = new FormData();
-		    var files_data = jQuery('.fileUploader');
-		    var self=jQuery(this);
-		    var postData=self.serialize();
-		    jQuery.each(jQuery(files_data), function(i, obj) {
-		        jQuery.each(obj.files,function(j,file){
-		            fd.append(obj.name, file);
-		        })
-		    });
+      jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').not('.buttons-block').each(function () {
+        if (jQuery(this).find('div.input-text-block >input').hasClass('required')) {
+          var text_emailField = jQuery(this).find('input');
+          if (text_emailField.val().trim() == '') {
+            text_emailField.parent().find('.hugeit-error-message').text(requiredError);
+            text_emailField.parent().parent().find('label').addClass('error');
+            text_emailField.parent().parent().find('label>em.required-star').addClass('error');
+            errorsAllow = 'no';
+          } else {
+            text_emailField.parent().find('.hugeit-error-message').text('');
+            text_emailField.parent().parent().find('label').removeClass('error');
+          }
+        }
+        if (jQuery(this).find('div.textarea-block >textarea').hasClass('required')) {
+          var textarea_field = jQuery(this).find('textarea');
+          if (textarea_field.val().trim() == '') {
+            textarea_field.parent().find('.hugeit-error-message').text(requiredError);
+            textarea_field.parent().parent().find('label').addClass('error');
+            textarea_field.parent().parent().find('label>em.required-star').addClass('error');
+            errorsAllow = 'no';
+          } else {
+            textarea_field.parent().find('.hugeit-error-message').text('');
+            textarea_field.parent().parent().find('label').removeClass('error');
+          }
+        }
+        if (jQuery(this).find('div.email-block >input').attr('type') == 'email') {
+          var emailField = jQuery(this).find('input');
+          emailField.on('blur', function () {
+            if (jQuery(this).val() != '') {
+              if (!isValidEmailAddress(jQuery(this).val())) {
+                jQuery(this).parent().find('.hugeit-error-message').text(emailError);
+                jQuery(this).parent().parent().find('label>em.required-star').addClass('error');
+                errorsAllow = 'no';
+              } else {
+                jQuery(this).parent().find('.hugeit-error-message').text('');
+              }
+            }
+          })
+        }
+        if (jQuery(this).find('div.selectbox-block >select').hasClass('required')) {
+          var selectField = jQuery(this).find('div.selectbox-block >select');
+          if (selectField.val() == null) {
+            selectField.parent().find('.hugeit-error-message').text(requiredError);
+            selectField.parent().parent().find('label').addClass('error');
+            selectField.parent().parent().find('label>em.required-star').addClass('error');
+            errorsAllow = 'no';
+          } else {
+            selectField.parent().find('.hugeit-error-message').text('');
+            selectField.parent().parent().find('label').removeClass('error');
+          }
+        }
+        if (jQuery(this).find('div.file-block >input[type="file"]').attr('type') == 'file') {
+          var fileInput = jQuery(this).find('input[type="file"]');
+          var maxSize = fileInput.parent().find('input[name="MAX_FILE_SIZE"]').val();
+          var typeStr = fileInput.parent().find('input[name="fileTypeArr"]').val().trim();
+          typeStr = typeStr.replace(/\s+/g, '');
+          var _validFileExtensions = typeStr.split(",");
+          if (fileInput.val() != '') {
+            var validREsult = Validate(jQuery('#huge_it_contact_form_4'), _validFileExtensions);
+            if (!validREsult) {
+              fileInput.parent().find('.hugeit-error-message').text(uploadTypeError);
+              fileInput.parent().parent().find('label').addClass('error');
+              fileInput.parent().parent().find('label>em.required-star').addClass('error');
+              errorsAllow = 'no';
+            } else {
+              if (fileInput.val() != '') {
+                var fileSize = fileInput.get(0).files[0].size;
+              }
+              if (fileInput.hasClass('required') && fileInput.val().trim() == '') {
+                fileInput.parent().find('.hugeit-error-message').text(requiredError);
+                fileInput.parent().parent().find('label').addClass('error');
+                fileInput.parent().parent().find('label>em.required-star').addClass('error');
+                errorsAllow = 'no';
+              } else if (fileSize > maxSize) {
+                fileInput.parent().find('.hugeit-error-message').text(uploadSizeError);
+                fileInput.parent().parent().find('label').addClass('error');
+                fileInput.parent().parent().find('label>em.required-star').addClass('error');
+                errorsAllow = 'no';
+              } else {
+                fileInput.parent().find('.hugeit-error-message').text('');
+                fileInput.parent().parent().find('label').removeClass('error');
+              }
+            }
+          } else {
+            if (fileInput.hasClass('required') && fileInput.val().trim() == '') {
+              fileInput.parent().find('.hugeit-error-message').text(requiredError);
+              fileInput.parent().parent().find('label').addClass('error');
+              fileInput.parent().parent().find('label>em.required-star').addClass('error');
+              errorsAllow = 'no';
+            } else {
+              fileInput.parent().find('.hugeit-error-message').text('');
+              fileInput.parent().parent().find('label').removeClass('error');
+            }
+          }
+        }
+        if (jQuery(this).hasClass('captcha-block')) {
+          captchaExists = 'yes';
+        }
+      })
+      if (captchaExists == 'yes') {
+        if (jQuery('#huge_it_contact_form_4').attr('verified') == 0) {
+          if (!jQuery(this).find('div.captcha-block #huge_it_captcha_4').find('span').length) {
+            jQuery(this).find('div.captcha-block #huge_it_captcha_4').append('<span style="text-align:right;" class="hugeit-error-message">' + captchaError + '</span>')
+          }
+          errorsAllow = 'no';
+        } else {
+          jQuery(this).find('div.captcha-block').find('span.hugeit-error-message').text('');
+        }
+      }
+      if (errorsAllow == 'yes') {
+        var fd = new FormData();
+        var files_data = jQuery('.fileUploader');
+        var self = jQuery(this);
+        var postData = self.serialize();
+        jQuery.each(jQuery(files_data), function (i, obj) {
+          jQuery.each(obj.files, function (j, file) {
+            fd.append(obj.name, file);
+          })
+        });
 
-		    fd.append('action', 'hugeit_validation_action');
-		    fd.append('formId', '4');
-		    fd.append('browser',browserName);
-		    fd.append('nonce', huge_it_obj.nonce);
-		    fd.append('postData', postData);
-	        jQuery.ajax({
-		        type: 'POST',
-		        url: 'http://wp.wingsofalaska.com/wp-admin/admin-ajax.php',
-		        nonce:huge_it_obj.nonce,
-		        data: fd,
-		        contentType: false,
-		        processData: false,
-		        beforeSend: function(){
-		            var buttonsHeightBs=jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').height();
-					var buttonsWidthBs=jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').width();
-					jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').append('<span class="huge_it_button_overlay"style="line-height:'+buttonsHeightBs+'px;height:'+buttonsHeightBs+'px;width:'+buttonsWidthBs+'px;"><img id="buttLoad" src="http://wp.wingsofalaska.com/wp-content/plugins/forms-contact/images/279.GIF"></span>');
-				},
-		        success: function(response){
-		            var response = jQuery.parseJSON(response);
-					if(response.markedAsSpam){
-						jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
-						var buttonField=response.spamButton;
-						jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
-						jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
-						document.getElementById("huge_it_contact_form_4").reset();
-						var buttonsHeight=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').height()+3;
-						var buttonsWidth=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').width()-2;
-						var spamText=response.markedAsSpam;
-						jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').empty().append('<span class="huge_it_spam_msg"style="line-height:'+buttonsHeight+'px;height:'+buttonsHeight+'px;width:'+buttonsWidth+'px;"><span>'+spamText+'</span></span>');
-					}else if(response.errors){
+        fd.append('action', 'hugeit_validation_action');
+        fd.append('formId', '4');
+        fd.append('browser', browserName);
+        fd.append('nonce', huge_it_obj.nonce);
+        fd.append('postData', postData);
+        jQuery.ajax({
+          type: 'POST',
+          url: 'http://wp.wingsofalaska.com/wp-admin/admin-ajax.php',
+          nonce: huge_it_obj.nonce,
+          data: fd,
+          contentType: false,
+          processData: false,
+          beforeSend: function () {
+            var buttonsHeightBs = jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').height();
+            var buttonsWidthBs = jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').width();
+            jQuery('#hugeit-contact-wrapper_4').find('div.buttons-block').append('<span class="huge_it_button_overlay"style="line-height:' + buttonsHeightBs + 'px;height:' + buttonsHeightBs + 'px;width:' + buttonsWidthBs + 'px;"><img id="buttLoad" src="http://wp.wingsofalaska.com/wp-content/plugins/forms-contact/images/279.GIF"></span>');
+          },
+          success: function (response) {
+            var response = jQuery.parseJSON(response);
+            if (response.markedAsSpam) {
+              jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display', 'none');
+              var buttonField = response.spamButton;
+              jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+              jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+              document.getElementById("huge_it_contact_form_4").reset();
+              var buttonsHeight = jQuery('#hugeit-contact-wrapper_4').find('div[rel="' + buttonField + '"]').height() + 3;
+              var buttonsWidth = jQuery('#hugeit-contact-wrapper_4').find('div[rel="' + buttonField + '"]').width() - 2;
+              var spamText = response.markedAsSpam;
+              jQuery('#hugeit-contact-wrapper_4').find('div[rel="' + buttonField + '"]').empty().append('<span class="huge_it_spam_msg"style="line-height:' + buttonsHeight + 'px;height:' + buttonsHeight + 'px;width:' + buttonsWidth + 'px;"><span>' + spamText + '</span></span>');
+            } else if (response.errors) {
 
-						jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
-						if(captchaExists=='yes'){
-							grecaptcha.reset(recaptchas[4]);
-						}
-						jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
-						jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
-						jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label>em.required-star').removeClass('error');
+              jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display', 'none');
+              if (captchaExists == 'yes') {
+                grecaptcha.reset(recaptchas[4]);
+              }
+              jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+              jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+              jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label>em.required-star').removeClass('error');
 
-						jQuery.each( response.errors, function( key, value ) {
-							jQuery('#hugeit-contact-wrapper_4').find('div [rel="'+key+'"]').find('span.hugeit-error-message').append(value);
-							jQuery('#hugeit-contact-wrapper_4').find('div [rel="'+key+'"]').find('label').addClass('error');
-							jQuery('#hugeit-contact-wrapper_4').find('div [rel="'+key+'"]').find('label>em.required-star').addClass('error');
-						});
-					}else if(response.success){
-						if(response.afterSubmit=='print_success_message'){
-							jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
-							var buttonField=response.buttons;
-							var successText=response.success;
-							var buttonsHeight=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').height()+3;
-							var buttonsWidth=jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').width()-2;
-							jQuery('#hugeit-contact-wrapper_4').find('div[rel="'+buttonField+'"]').empty().append('<span class="huge_it_success_msg"style="line-height:16px;height:'+buttonsHeight+'px;width:'+buttonsWidth+'px;"><span>'+successText+'</span></span>');
-							document.getElementById("huge_it_contact_form_4").reset();
-							jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
-							jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
-						}else if(response.afterSubmit=='refresh_page'){
-							jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
-							location.reload();
-						}else if(response.afterSubmit=='go_to_url'){
-							jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display','none');
-							document.getElementById("huge_it_contact_form_4").reset();
-							jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
-							jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
-							var redirectUrl=response.afterSubmitUrl;
-							window.location.href=redirectUrl;
-						}
+              jQuery.each(response.errors, function (key, value) {
+                jQuery('#hugeit-contact-wrapper_4').find('div [rel="' + key + '"]').find('span.hugeit-error-message').append(value);
+                jQuery('#hugeit-contact-wrapper_4').find('div [rel="' + key + '"]').find('label').addClass('error');
+                jQuery('#hugeit-contact-wrapper_4').find('div [rel="' + key + '"]').find('label>em.required-star').addClass('error');
+              });
+            } else if (response.success) {
+              if (response.afterSubmit == 'print_success_message') {
+                jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display', 'none');
+                var buttonField = response.buttons;
+                var successText = response.success;
+                var buttonsHeight = jQuery('#hugeit-contact-wrapper_4').find('div[rel="' + buttonField + '"]').height() + 3;
+                var buttonsWidth = jQuery('#hugeit-contact-wrapper_4').find('div[rel="' + buttonField + '"]').width() - 2;
+                jQuery('#hugeit-contact-wrapper_4').find('div[rel="' + buttonField + '"]').empty().append('<span class="huge_it_success_msg"style="line-height:16px;height:' + buttonsHeight + 'px;width:' + buttonsWidth + 'px;"><span>' + successText + '</span></span>');
+                document.getElementById("huge_it_contact_form_4").reset();
+                jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+                jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+              } else if (response.afterSubmit == 'refresh_page') {
+                jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display', 'none');
+                location.reload();
+              } else if (response.afterSubmit == 'go_to_url') {
+                jQuery('#hugeit-contact-wrapper_4').find('.huge_it_button_overlay').css('display', 'none');
+                document.getElementById("huge_it_contact_form_4").reset();
+                jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+                jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+                var redirectUrl = response.afterSubmitUrl;
+                window.location.href = redirectUrl;
+              }
 
-					}
-		        }
-		    });
-	 	}else{
-	 		//alert(0)
-	 	}
-   	});
-	jQuery( "#huge_it_contact_form_4" ).on( "reset", function(e) {
-	 	if(captchaExists=='yes'){
-	 		grecaptcha.reset(recaptchas[4]);
-	 	}
-	 	jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
-		jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
-		jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label>em.required-star').removeClass('error');
-	});
+            }
+          }
+        });
+      } else {
+        //alert(0)
+      }
+    });
+    jQuery("#huge_it_contact_form_4").on("reset", function (e) {
+      if (captchaExists == 'yes') {
+        grecaptcha.reset(recaptchas[4]);
+      }
+      jQuery('#hugeit-contact-wrapper_4 .hugeit-error-message').empty();
+      jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label').removeClass('error');
+      jQuery('#hugeit-contact-wrapper_4').find('.hugeit-field-block').find('label>em.required-star').removeClass('error');
+    });
 
 
-
-})
+  })
 </script>
