@@ -659,60 +659,39 @@
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 11px; font-weight: normal
   }
-
   #msk_container {
     width: 207px; min-height: 350px; border: 1px solid lightgray;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold;
   }
-
-  #msk_container .jqx-panel { border: none }
-
+  #msk_panel_scheduled, #msk_panel_chartered { border-style: none }
   label {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 10px; font-weight: bold;
     display: block;
     float: left;
-    line-height: 18px;
+    line-height: 19px;
   }
-
   .half { width: 50%; float: left }
-
   .quarter { width: 25% }
-
   .two_thirds { width: 66% }
-
   .three_quarters { width: 75% }
-
   .full_length { clear: both; }
-
-  .one_third { width: 33% }
-
   .divvy_half { width: 50% }
-
-  .divvy_one_third { width: 33% }
-
-  .divvy_two_thirds { width: 66% }
-
   .msk_band { margin-top: 5px }
-
   .high { margin-top: 8px }
-
   .msk_band > div {
     float: left;
   }
-
   .msk_band::after { content: ''; clear: both; display: block }
-
   #msk_title { font-size: 19px }
-
   #msk_radiogroup > div { float: left; width: 50% }
   #msk_radiogroup::after { content: ""; clear: both; display: block }
-
   .msk_band label {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold
   }
-
-  #msk_panel_scheduled.jqx-panel { border-bottom: 1px solid grey }
+  div.label {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold
+  }
 
 </style>
 
@@ -958,11 +937,19 @@
       </div>
       <div class="msk_band">
         <div class="half label">DEPARTING* </div>
-        <div class="half label">RETURNING* </div>
+        <div class="half label" id="msk_return_label">RETURNING* </div>
       </div>
       <div class="msk_band">
         <div class="divvy_half"><div id="leave_date"></div></div>
         <div class="divvy_half"><div id="return_date"></div></div>
+      </div>
+      <div class="msk_band">
+        <div class="half label">FIRST NAME* </div>
+        <div class="half label">LAST NAME* </div>
+      </div>
+      <div class="msk_band">
+        <div class="divvy_half"><input type="text" id="first_name" name="first_name" title="First Name"/></div>
+        <div class="divvy_half"><input type="text" id="last_name" name="last_name" title="Last Name"/></div>
       </div>
       <div class="msk_band high">
         <label for="passenger_count" class="two_thirds">TOTAL PASSENGERS* : </label>
@@ -1005,13 +992,16 @@
   var msk_email = $("#email");
   var msk_phone = $("#phone");
   var msk_special_requests = $("#special_requests");
+  var msk_return_label = $("#msk_return_label");
+  var msk_first_name = $("#first_name");
+  var msk_last_name = $("#last_name");
 
   msk_radio_round_trip.jqxRadioButton({ width: 90, height: 16, checked: true });
   msk_radio_one_way.jqxRadioButton({ width: 90, height: 16 });
   msk_radio_charter.jqxRadioButton({ width: 90, height: 16 });
   msk_radio_tour.jqxRadioButton({ width: 90, height: 16 });
-  msk_scheduled_panel.jqxPanel({ width: "100%", height: 250 });
-  msk_chartered_panel.jqxPanel({ width: "100%", height: 250 });
+  msk_scheduled_panel.jqxPanel({ width: "100%", height: 400 });
+  msk_chartered_panel.jqxPanel({ width: "100%", height: 400 });
   msk_chartered_panel.hide();
 
   function switch_panels (panel_name) {
@@ -1020,8 +1010,16 @@
     $("#" + panel_name).show();
   }
 
-  msk_radio_round_trip.on('checked', function(event) { switch_panels("msk_panel_scheduled"); });
-  msk_radio_one_way.on('checked', function(event) { switch_panels("msk_panel_scheduled"); });
+  msk_radio_round_trip.on('checked', function(event) {
+    switch_panels("msk_panel_scheduled");
+    msk_return_label.show();
+    msk_return_date.show();
+  });
+  msk_radio_one_way.on('checked', function(event) {
+    switch_panels("msk_panel_scheduled");
+    msk_return_label.hide();
+    msk_return_date.hide();
+  });
   msk_radio_charter.on('checked', function(event) { switch_panels("msk_panel_chartered"); });
   msk_radio_tour.on('checked', function(event) { switch_panels("msk_panel_chartered"); });
 
@@ -1033,10 +1031,16 @@
   msk_leave_date.jqxDateTimeInput({ width: 98, height: 16, formatString: "d-MMM-yy" });
   msk_return_date.jqxDateTimeInput({ width: 98, height: 16, formatString: "d-MMM-yy" });
 
+  msk_first_name.jqxInput({ width: 90, height: 16, placeHolder: "Enter first name" });
+  msk_last_name.jqxInput({ width: 90, height: 16, placeHolder: "Enter last name" });
+
   msk_passenger_count.jqxInput({ width: 59, height: 16 });
   msk_email.jqxInput({ width: 144, height: 16, placeHolder: "example@domain.com" });
   msk_phone.jqxInput({ width: 144, height: 16, placeHolder: "(###) ###-####" });
-  msk_special_requests.jqxTextArea({ width: 202, height: 55, placeHolder: "Please specify your special requirements here."});
+  msk_special_requests.jqxTextArea({
+    width: 202, height: 55,
+    placeHolder: "Please specify your special requirements here."
+  });
 
 </script>
 
