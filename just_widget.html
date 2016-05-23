@@ -660,8 +660,9 @@
     font-size: 11px; font-weight: normal
   }
   #msk_container {
-    width: 207px; min-height: 350px; border: 1px solid lightgray;
+    width: 208px; min-height: 350px; border: 1px solid lightgray;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold;
+    padding-bottom: 5px;
   }
   #msk_panel_scheduled, #msk_panel_chartered { border-style: none }
   label {
@@ -692,7 +693,8 @@
   div.label {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold
   }
-
+  #msk_title, #msk_radiogroup div { margin-bottom: 5px }
+  #go_button { display: block; margin: auto }
 </style>
 
 <script>
@@ -926,50 +928,52 @@
         <div id="msk_radio_tour">Tour</div>
       </div>
     </div>
-    <div id="msk_panel_scheduled" class="jqx-panel">
-      <div class="msk_band">
-        <div class="half label">FROM* </div>
-        <div class="half label">TO* </div>
-      </div>
-      <div class="msk_band">
-        <div class="divvy_half"><div id="from_box"></div></div>
-        <div class="divvy_half"><div id="to_box"></div></div>
-      </div>
-      <div class="msk_band">
-        <div class="half label">DEPARTING* </div>
-        <div class="half label" id="msk_return_label">RETURNING* </div>
-      </div>
-      <div class="msk_band">
-        <div class="divvy_half"><div id="leave_date"></div></div>
-        <div class="divvy_half"><div id="return_date"></div></div>
-      </div>
-      <div class="msk_band">
-        <div class="half label">FIRST NAME* </div>
-        <div class="half label">LAST NAME* </div>
-      </div>
-      <div class="msk_band">
-        <div class="divvy_half"><input type="text" id="first_name" name="first_name" title="First Name"/></div>
-        <div class="divvy_half"><input type="text" id="last_name" name="last_name" title="Last Name"/></div>
-      </div>
-      <div class="msk_band high">
-        <label for="passenger_count" class="two_thirds">TOTAL PASSENGERS* : </label>
-        <input id="passenger_count" name="passenger_count" title="Passenger Count" type="text"/>
-      </div>
-      <div class="msk_band high">
-        <label for="email" class="quarter">EMAIL* :</label>
-        <div class="three_quarters"><input type="text" id="email" name="email" title="Email Address" /></div>
-      </div>
-      <div class="msk_band high">
-        <label for="phone" class="quarter">PHONE* :</label>
-        <div class="three_quarters"><input type="text" id="phone" name="phone" title="Phone Number"/></div>
-      </div>
-      <div class="msk_band high">
-        <label for="special_requests" class="full_length">SPECIAL REQUESTS: </label>
-        <textarea id="special_requests" name="special_requests"></textarea>
-      </div>
+    <div class="msk_band scheduled">
+      <div class="half label">FROM* </div>
+      <div class="half label">TO* </div>
     </div>
-    <div id="msk_panel_chartered">
-
+    <div class="msk_band chartered">
+      <div class="half label">ORIGIN* </div>
+      <div class="half label" id="msk_destination_label">DESTINATION* </div>
+    </div>
+    <div class="msk_band">
+      <div class="divvy_half"><div id="from_box"></div></div>
+      <div class="divvy_half"><div id="to_box"></div></div>
+    </div>
+    <div class="msk_band">
+      <div class="half label">DEPARTING* </div>
+      <div class="half label" id="msk_return_label">RETURNING* </div>
+    </div>
+    <div class="msk_band">
+      <div class="divvy_half"><div id="leave_date"></div></div>
+      <div class="divvy_half"><div id="return_date"></div></div>
+    </div>
+    <div class="msk_band chartered">
+      <div class="half label">FIRST NAME* </div>
+      <div class="half label">LAST NAME* </div>
+    </div>
+    <div class="msk_band chartered">
+      <div class="divvy_half"><input type="text" id="first_name" name="first_name" title="First Name"/></div>
+      <div class="divvy_half"><input type="text" id="last_name" name="last_name" title="Last Name"/></div>
+    </div>
+    <div class="msk_band high chartered">
+      <label for="passenger_count" class="two_thirds">TOTAL PASSENGERS* : </label>
+      <input id="passenger_count" name="passenger_count" title="Passenger Count" type="text"/>
+    </div>
+    <div class="msk_band high chartered">
+      <label for="email" class="quarter">EMAIL* :</label>
+      <div class="three_quarters"><input type="text" id="email" name="email" title="Email Address" /></div>
+    </div>
+    <div class="msk_band high chartered">
+      <label for="phone" class="quarter">PHONE* :</label>
+      <div class="three_quarters"><input type="text" id="phone" name="phone" title="Phone Number"/></div>
+    </div>
+    <div class="msk_band high chartered">
+      <label for="special_requests" class="full_length">SPECIAL REQUESTS: </label>
+      <textarea id="special_requests" name="special_requests"></textarea>
+    </div>
+    <div class="msk_band high">
+      <button id="go_button" name="go_button"><img src="images/menubutton.png" height="14" width="14">Search Flights</button>
     </div>
   </div>
 
@@ -982,10 +986,9 @@
   var msk_radio_one_way = $("#msk_radio_one_way");
   var msk_radio_charter = $("#msk_radio_charter");
   var msk_radio_tour = $("#msk_radio_tour");
-  var msk_scheduled_panel = $("#msk_panel_scheduled");
-  var msk_chartered_panel = $("#msk_panel_chartered");
   var msk_from_box = $("#from_box");
   var msk_to_box = $("#to_box");
+  var msk_to_label = $("#msk_destination_label");
   var msk_leave_date = $("#leave_date");
   var msk_return_date = $("#return_date");
   var msk_passenger_count = $("#passenger_count");
@@ -995,38 +998,54 @@
   var msk_return_label = $("#msk_return_label");
   var msk_first_name = $("#first_name");
   var msk_last_name = $("#last_name");
+  var msk_scheduled = $(".scheduled");
+  var msk_chartered = $(".chartered");
 
   msk_radio_round_trip.jqxRadioButton({ width: 90, height: 16, checked: true });
   msk_radio_one_way.jqxRadioButton({ width: 90, height: 16 });
   msk_radio_charter.jqxRadioButton({ width: 90, height: 16 });
   msk_radio_tour.jqxRadioButton({ width: 90, height: 16 });
-  msk_scheduled_panel.jqxPanel({ width: "100%", height: 400 });
-  msk_chartered_panel.jqxPanel({ width: "100%", height: 400 });
-  msk_chartered_panel.hide();
 
-  function switch_panels (panel_name) {
-    msk_scheduled_panel.hide();
-    msk_chartered_panel.hide();
-    $("#" + panel_name).show();
+  msk_scheduled.show();
+  msk_chartered.hide();
+
+  function switch_sched_chart_mode (mode) {
+    msk_scheduled.hide();
+    msk_chartered.hide();
+    $("." + mode).show();
   }
 
   msk_radio_round_trip.on('checked', function(event) {
-    switch_panels("msk_panel_scheduled");
+    msk_from_box.jqxDropDownList({ source: location_options });
+    switch_sched_chart_mode("scheduled");
     msk_return_label.show();
     msk_return_date.show();
   });
   msk_radio_one_way.on('checked', function(event) {
-    switch_panels("msk_panel_scheduled");
+    msk_from_box.jqxDropDownList({ source: location_options });
+    switch_sched_chart_mode("scheduled");
     msk_return_label.hide();
     msk_return_date.hide();
   });
-  msk_radio_charter.on('checked', function(event) { switch_panels("msk_panel_chartered"); });
-  msk_radio_tour.on('checked', function(event) { switch_panels("msk_panel_chartered"); });
+  msk_radio_charter.on('checked', function(event) {
+    msk_from_box.jqxDropDownList({ source: charter_options });
+    msk_to_box.jqxDropDownList({ source: charter_options });
+    switch_sched_chart_mode("chartered");
+  });
+  msk_radio_tour.on('checked', function(event) {
+    msk_from_box.jqxDropDownList({ source: tour_options });
+    msk_to_box.hide();
+    msk_to_label.hide();
+    switch_sched_chart_mode("chartered");
+  });
 
   var location_options = ["Excursion Inlet", "Glacier Bay", "Gustavus", "Icy Strait", "Haines", "Hoonah", "Juneau", "Skagway"];
+  var tour_options = ["Icy straight", "Glacier field", "Special Request"];
+  var charter_options = ["Excursion Inlet", "Glacier Bay", "Gustavus",
+                         "Icy Strait", "Haines", "Hoonah", "Juneau", "Skagway", "Special Request"];
 
-  msk_from_box.jqxDropDownList({ width: 98, height: 16, source: location_options, placeHolder: "Select one" });
-  msk_to_box.jqxDropDownList({ width: 98, height: 16, source: location_options, placeHolder: "Select one" });
+  msk_from_box.jqxDropDownList({ width: 95, height: 16, source: location_options, placeHolder: "Select one" });
+  msk_to_box.jqxDropDownList({ width: 95, height: 16, source: location_options, placeHolder: "Select one" });
 
   msk_leave_date.jqxDateTimeInput({ width: 98, height: 16, formatString: "d-MMM-yy" });
   msk_return_date.jqxDateTimeInput({ width: 98, height: 16, formatString: "d-MMM-yy" });
