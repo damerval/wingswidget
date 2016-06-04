@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="jqx.base.css" property="stylesheet" />
+<link rel="stylesheet" type="text/css" href="jqx.classic.css" property="stylesheet" />
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"
+        integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+<script src="jqxcore.js" type="text/javascript" language="javascript"></script>
+<script src="jqxbuttons.js" type="text/javascript" language="javascript"></script>
+
+<input type="button" id="testbutton" name="testbutton" value="Press me"/>
+
+<script language="javascript">
+  var_testbutton = $("#testbutton");
+  var_testbutton.jqxButton({ width: 125, height: 35 });
+  var_testbutton.on('click', function() {
+    window.location.href = "https://amazon.takeflite.aero/takeflitepublicGLA/Default.aspx";
+  });
+</script>
+

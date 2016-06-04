@@ -15,6 +15,7 @@
 <script src="globalization/globalize.js" type="text/javascript" language="javascript"></script>
 <script src="jqxinput.js" type="text/javascript" language="javascript"></script>
 <script src="jqxtextarea.js" type="text/javascript" language="javascript"></script>
+<script src="jqxvalidator.js" type="text/javascript" language="javascript"></script>
 
 <style>
   /*########### PREVIEW CONTAINER ##############*/
@@ -660,7 +661,7 @@
     font-size: 11px; font-weight: normal
   }
   #msk_container {
-    width: 208px; min-height: 350px; border: 1px solid lightgray;
+    width: 208px; min-height: 350px;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold;
     padding-bottom: 5px;
   }
@@ -694,7 +695,13 @@
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; font-weight: bold
   }
   #msk_title, #msk_radiogroup div { margin-bottom: 5px }
-  #go_button { display: block; margin: auto }
+  button.go_button {
+    display: block; margin: auto;
+    padding: 1px 6px 1px 6px;
+    height: 25px;
+  }
+  button.go_button > img, button.go_button > span { vertical-align: middle }
+
 </style>
 
 <script>
@@ -937,8 +944,8 @@
       <div class="half label" id="msk_destination_label">DESTINATION* </div>
     </div>
     <div class="msk_band">
-      <div class="divvy_half"><div id="from_box"></div></div>
-      <div class="divvy_half"><div id="to_box"></div></div>
+      <div class="divvy_half"><div id="from_box" name="from_box"></div> </div>
+      <div class="divvy_half"><div id="to_box" name="to_box"></div></div>
     </div>
     <div class="msk_band">
       <div class="half label">DEPARTING* </div>
@@ -960,6 +967,10 @@
       <label for="passenger_count" class="two_thirds">TOTAL PASSENGERS* : </label>
       <input id="passenger_count" name="passenger_count" title="Passenger Count" type="text"/>
     </div>
+    <div class="msk_band high scheduled">
+      <label for="passenger_count" class="two_thirds">TOTAL TRAVELERS* : </label>
+      <div id="traveler_count"></div>
+    </div>
     <div class="msk_band high chartered">
       <label for="email" class="quarter">EMAIL* :</label>
       <div class="three_quarters"><input type="text" id="email" name="email" title="Email Address" /></div>
@@ -972,8 +983,17 @@
       <label for="special_requests" class="full_length">SPECIAL REQUESTS: </label>
       <textarea id="special_requests" name="special_requests"></textarea>
     </div>
-    <div class="msk_band high">
-      <button id="go_button" name="go_button"><img src="images/menubutton.png" height="14" width="14">Search Flights</button>
+    <div class="msk_band high scheduled">
+      <button class="go_button" id="go_button_scheduled" name="go_button">
+        <img src="flights.png" height="16" width="16">
+        <span>Search Flights</span>
+      </button>
+    </div>
+    <div class="msk_band high chartered">
+      <button class="go_button" id="go_button_chartered" name="go_button">
+        <img src="mail.png" height="12" width="16">
+        <span>Search Flights</span>
+      </button>
     </div>
   </div>
 
@@ -1000,6 +1020,9 @@
   var msk_last_name = $("#last_name");
   var msk_scheduled = $(".scheduled");
   var msk_chartered = $(".chartered");
+  var msk_chart_tour_button_label = $("#go_button_chartered").find("span");
+  var hugeit_form = $("#huge_it_contact_form_4");
+  var msk_traveler_count = $("#traveler_count");
 
   msk_radio_round_trip.jqxRadioButton({ width: 90, height: 16, checked: true });
   msk_radio_one_way.jqxRadioButton({ width: 90, height: 16 });
@@ -1015,28 +1038,52 @@
     $("." + mode).show();
   }
 
+  function format_date(indate) {
+    var day = "00" + indate.getDate();
+    day = day.substring(day.length - 2);
+    var month = "00" + (indate.getMonth() + 1);
+    month = month.substring(month.length - 2);
+    var year = indate.getFullYear();
+    return month + "/" + day + "/" + year;
+  }
+
   msk_radio_round_trip.on('checked', function(event) {
     msk_from_box.jqxDropDownList({ source: location_options });
+    msk_to_box.jqxDropDownList({ source: location_options });
     switch_sched_chart_mode("scheduled");
     msk_return_label.show();
     msk_return_date.show();
+    msk_to_box.show();
+    hugeit_form.jqxValidator(msk_return_rules);
   });
   msk_radio_one_way.on('checked', function(event) {
     msk_from_box.jqxDropDownList({ source: location_options });
+    msk_to_box.jqxDropDownList({ source: location_options });
     switch_sched_chart_mode("scheduled");
     msk_return_label.hide();
     msk_return_date.hide();
+    hugeit_form.jqxValidator(msk_oneway_rules);
   });
   msk_radio_charter.on('checked', function(event) {
     msk_from_box.jqxDropDownList({ source: charter_options });
     msk_to_box.jqxDropDownList({ source: charter_options });
+    msk_to_label.show();
+    msk_to_box.show();
+    msk_chart_tour_button_label.html("Request Charter");
     switch_sched_chart_mode("chartered");
+    msk_return_label.hide();
+    msk_return_date.hide();
+    hugeit_form.jqxValidator(msk_charter_rules);
   });
   msk_radio_tour.on('checked', function(event) {
     msk_from_box.jqxDropDownList({ source: tour_options });
+    msk_chart_tour_button_label.html("Request Tour");
     msk_to_box.hide();
     msk_to_label.hide();
+    msk_return_label.hide();
+    msk_return_date.hide();
     switch_sched_chart_mode("chartered");
+    hugeit_form.jqxValidator(msk_tour_rules);
   });
 
   var location_options = ["Excursion Inlet", "Glacier Bay", "Gustavus", "Icy Strait", "Haines", "Hoonah", "Juneau", "Skagway"];
@@ -1058,8 +1105,194 @@
   msk_phone.jqxInput({ width: 144, height: 16, placeHolder: "(###) ###-####" });
   msk_special_requests.jqxTextArea({
     width: 202, height: 55,
-    placeHolder: "Please specify your special requirements here."
+    placeHolder: "Please specify your special requests / requirements here."
   });
+  msk_traveler_count.jqxNumberInput({ width: 59, height: 16, inputMode: 'simple', digits: 2, decimalDigits: 0 });
+
+
+  var rules_error_message = "There were errors. Please review the tool tips to see where the problem(s) is(are). "
+      + "Click on the tooltip to close it when you are done, or simply tab to another input control.";
+
+  var scheduling_url = "https://amazon.takeflite.aero/takeflitepublicGLA/Default.aspx?";
+  var msk_href = "";
+
+  var msk_return_rules = {
+    position: 'top',
+    onSuccess: function() {
+      msk_href = scheduling_url + "To=" + msk_to_box.jqxDropDownList('val')
+          + "&From=" + msk_from_box.jqxDropDownList('val')
+          + "&Date=" + format_date(msk_leave_date.jqxDateTimeInput('getDate'))
+          + "&RDate=" + format_date(msk_return_date.jqxDateTimeInput('getDate'))
+          + "&Adults=0&Children=0&Infants=0";
+      window.location.href = msk_href;
+      //alert(msk_href);
+    },
+    onError: function() {
+      alert(rules_error_message);
+    },
+    rules: [{
+      input: '#leave_date',
+      message: "Please enter a departure date",
+      action: 'blur',
+      rule: function () {return (null != msk_leave_date.jqxDateTimeInput('getDate'));}
+    }, {
+      input: '#return_date',
+      message: "Please enter a return date",
+      action: 'blur',
+      rule: function () {
+        return (null != msk_return_date.jqxDateTimeInput('getDate'));
+      }
+    }, {
+      input: '#from_box',
+      message: "Please select an origin airport",
+      action: 'select',
+      rule: function() {return (msk_from_box.jqxDropDownList('selectedIndex') != -1);}
+    }, {
+      input: '#to_box',
+      message: "Please select a destination airport",
+      action: 'select',
+      rule: function() {return (msk_to_box.jqxDropDownList('selectedIndex') != -1);}
+    }]
+  };
+
+  var msk_oneway_rules = {
+    position: 'top',
+    onSuccess: function() {
+      msk_href = scheduling_url + "To=" + msk_to_box.jqxDropDownList('val')
+          + "&From=" + msk_from_box.jqxDropDownList('val')
+          + "&Date=" + format_date(msk_leave_date.jqxDateTimeInput('getDate'))
+          + "&RDate="
+          + "&Adults=0&Children=0&Infants=0";
+      window.location.href = msk_href;
+      //alert(msk_href);
+    },
+    onError: function() {
+      alert(rules_error_message);
+    },
+    rules: [{
+      input: '#leave_date',
+      message: "Please enter a departure date",
+      action: 'blur',
+      rule: function () {return (null != msk_leave_date.jqxDateTimeInput('getDate'));}
+    }, {
+      input: '#from_box',
+      message: "Please select an origin airport",
+      action: 'select',
+      rule: function() {return (msk_from_box.jqxDropDownList('selectedIndex') != -1);}
+    }, {
+      input: '#to_box',
+      message: "Please select a destination airport",
+      action: 'select',
+      rule: function() {return (msk_to_box.jqxDropDownList('selectedIndex') != -1);}
+    }]
+  };
+
+  var msk_charter_rules = {
+    position: 'top',
+    onSuccess: function() {
+      alert(format_date(msk_leave_date.jqxDateTimeInput('getDate')));
+    },
+    onError: function() {
+      alert(rules_error_message);
+    },
+    rules: [{
+      input: '#leave_date',
+      message: "Please enter a departure date",
+      action: 'blur',
+      rule: function () {return (null != msk_leave_date.jqxDateTimeInput('getDate'));}
+    }, {
+      input: '#from_box',
+      message: "Please select an origin airport",
+      action: 'select',
+      rule: function() {return (msk_from_box.jqxDropDownList('selectedIndex') != -1);}
+    }, {
+      input: '#to_box',
+      message: "Please select a destination airport",
+      action: 'select',
+      rule: function() {return (msk_to_box.jqxDropDownList('selectedIndex') != -1);}
+    }, {
+      input: '#first_name',
+      message: "Please enter a first name for the record",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#last_name',
+      message: "Please enter a last name for the record",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#passenger_count',
+      message: "Please enter the number of people in your party",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#email',
+      message: "Please enter an email for the record",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#phone',
+      message: "Please enter a phone number for the record",
+      action: 'blur',
+      rule: 'required'
+    }]
+  };
+
+  var msk_tour_rules = {
+    position: 'top',
+    onSuccess: function() {
+      alert(format_date(msk_leave_date.jqxDateTimeInput('getDate')));
+    },
+    onError: function() {
+      alert(rules_error_message);
+    },
+    rules: [{
+      input: '#leave_date',
+      message: "Please enter a departure date",
+      action: 'blur',
+      rule: function () {return (null != msk_leave_date.jqxDateTimeInput('getDate'));}
+    }, {
+      input: '#from_box',
+      message: "Please select an origin airport",
+      action: 'select',
+      rule: function() {return (msk_from_box.jqxDropDownList('selectedIndex') != -1);}
+    }, {
+      input: '#first_name',
+      message: "Please enter a first name for the record",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#last_name',
+      message: "Please enter a last name for the record",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#passenger_count',
+      message: "Please enter the number of people in your party",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#email',
+      message: "Please enter an email for the record",
+      action: 'blur',
+      rule: 'required'
+    }, {
+      input: '#phone',
+      message: "Please enter a phone number for the record",
+      action: 'blur',
+      rule: 'required'
+    }]
+  };
+
+  $("#go_button_scheduled").on('click', function() {
+    hugeit_form.jqxValidator('validate');
+  });
+
+  $("#go_button_chartered").on('click', function() {
+    hugeit_form.jqxValidator('validate');
+  });
+
+  msk_radio_round_trip.jqxRadioButton('check');
 
 </script>
 
